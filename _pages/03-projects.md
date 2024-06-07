@@ -34,12 +34,3 @@ Insert summary of Project 3.
 </div>
 
 Insert summary of Project 4.
-
-<!---
-<div id="seminar" class="project-container">
-  <img src="{{ site.baseurl }}/assets/img/projects-neuroethics.jpg" alt="Background image for Neuroethics Seminar. Photo by Michael Podger on Unsplash." style="width: 100%;">
-  <span class="project-transparency" style="background: rgba(0.5,0.5,0.5,0.4);"></span>
-  <div class="project-title" style="color: #ffdd00">Neuroethics Seminar</div>
-</div>
-
--->
