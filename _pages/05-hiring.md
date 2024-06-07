@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hiring
+title: hiring
 permalink: /hiring/
 description: 
 ---
