@@ -13,22 +13,21 @@ profile:
 news: false
 social: false
 ---
-The Decision Lab is led by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), and is part of the [Memory and Aging Center](http://memory.ucsf.edu){:target="\_blank"} in the [UCSF Weill Institute for Neurosciences](http://weill.ucsf.edu){:target="\_blank"}. Our interdisciplinary research is informed by clinical neurology, cognitive neuroscience, the social sciences, philosophy and law, with two main themes:
+Insert lab information/intro
 
-1. **Decision Neuroscience in Aging and Disorders of Aging**
+1. **Focus Area 1**
 
-   We study the neural bases of decision-making in the aging brain in both health and disease, using techniques such as task-based functional MRI, online population-based methods, and computational behavioral modeling. We hope to understand brain changes underlying vulnerability to financial fraud and other mistakes, in order to inform future strategies to prevent these risks.
+   Insert focus area 1 info.
 
-2. **Ethical, Policy and Health Equity Implications of Alterations to Brain Function**
+2. **Focus Area 2**
 
-   We also use conceptual and empirical/ethnographic methods to investigate the broader effects of brain diseases and of interventions (pharmacological and technological) that influence brain function. As the brain is the physical basis for our experiences, personalities and choices, we are particularly interested in how changes to the brain affect patients’/users’ senses of themselves and in whether new possibilities afforded by novel interventions are made available among diverse communities.
+   Insert focus area 2 info.
 
 ---
 
 ## partners
 
-Our work is funded by grants R01AG058817, R01MH114860, R01AG022983, 
-U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www.nih.gov){:target="\_blank"}. In addition to our [research collaborators]({{ '/team/index.html#collaborators' | prepend: site.baseurl | prepend: site.url }}), we are affiliated with:
+Insert partners and affiliations.
 
 <div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
@@ -44,11 +43,7 @@ U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www
 ---
 
 ## contact
-Winston Chiong, MD PhD  
-Associate Professor in Residence  
-UCSF Memory and Aging Center  
-675 Nelson Rising Lane, Suite 190F  
-San Francisco CA 94158  
+Insert contact information  
 
 <i class="fa fa-envelope"></i> *decisionlab (at) ucsf.edu*
 
