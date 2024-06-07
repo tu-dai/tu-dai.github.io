@@ -32,8 +32,8 @@ Insert partners and affiliations.
 <div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
 <div class="clearfix" style="width: 100%; clear: both;">
-    <a href="https://www.gbhi.org" target="_blank"><img style="width: 45%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_GBHI_logo_RGB.png" alt="logo for Global Brain Health Institute"></a>
-    <a href="https://www.allftd.org" target="_blank"><img style="width: 50%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_ALLFTD.png" alt="logo for the ARTFL-LEFFTDS Longitudinal Frontotemporal Lobar Degeneration (ALLFTD) research study"></a>
+    <a href="Website to partner 1" target="_blank"><img style="width: 45%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/image of parter 1 name" alt="Image logo description"></a>
+    <a href="Website to partner 2" target="_blank"><img style="width: 50%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/image of partner 2 name" alt="Image logo description"></a>
 </div>
 <div style="width: 100%; clear: both; margin-bottom: 15px">
 </div>
