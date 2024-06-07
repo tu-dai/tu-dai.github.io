@@ -6,7 +6,7 @@ description:
 ---
 
 <div id="gbd" class="project-container" style="margin-top: 0px">
-  <img src="{{ site.baseurl }}/assets/img/projects-gbd.jpg" alt="Background image for Genes, Brains and Decisions. Photo by Robbin Huang on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-gbd.jpg" alt="Image caption." style="width: 100%;">
   <div class="project-title" style="color: #052049">Project Title 1</div>
 </div>
 Insert summary of Project 1.
@@ -28,7 +28,7 @@ Insert summary of Project 2.
 Insert summary of Project 3.
 
 <div id="agingcog" class="project-container">
-  <img src="{{ site.baseurl }}/assets/img/projects-agingcog.jpg" alt="Background image for Aging and Cognitive Decline Study. Photo by Thomas Kelley on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-agingcog.jpg" alt="Image description" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0,0,0,0.4);"></span>
   <div class="project-title" style="color: #d1d3d3">Project Title 4</div>
 </div>
