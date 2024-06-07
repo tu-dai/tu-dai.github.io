@@ -45,7 +45,7 @@ Insert partners and affiliations.
 ## Contact
 Insert contact information  
 
-<i class="fa fa-envelope"></i> *decisionlab (at) ucsf.edu*
+<i class="fa fa-envelope"></i> *Contact name (at) email address*
 
 ---
 
