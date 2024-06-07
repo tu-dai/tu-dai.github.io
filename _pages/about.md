@@ -25,7 +25,7 @@ Insert lab information/intro
 
 ---
 
-## partners
+## Partners
 
 Insert partners and affiliations.
 
@@ -42,7 +42,7 @@ Insert partners and affiliations.
 
 ---
 
-## contact
+## Contact
 Insert contact information  
 
 <i class="fa fa-envelope"></i> *decisionlab (at) ucsf.edu*
