@@ -1,13 +1,13 @@
 
-- name: Student name 1
+- name: Nicole Smith-Vaniz
   image: Image
   altimage: 
-  position: Position
-  email: Name (at) email
-  website: 
+  position: Research Assistant 
+  email: nsmithvaniz@tulane.edu
+  website: https://nsmithvaniz.github.io/
   scholar:
   twitter:
-  description: Description of student
+  description: Nicole is a research assistant, bringing a unique blend of public health and writing expertise and a developing interest in artificial intelligence. Nicole’s journey into AI began with a course on the subject, where she discovered her fascination with machine learning. Recognizing the vast learning curve, she has proactively immersed herself in computer science principles and programming languages, working on projects such as building this website. Nicole’s focus within the lab is at the intersection of AI and morality. As a philosophy minor, she is interested in delving into the ethical dimensions of AI applications, considering issues such as personalized AI ethicality and grappling with the alignment problem. She hopes to contribute to Dr. Nick’s team, exploring these matters through various morality projects.
                
   pubmed_name:
 
