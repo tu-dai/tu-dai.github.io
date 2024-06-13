@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 ---
 
-<div id="gbd" class="project-container" style="margin-top: 0px">
+<div id="gbd" class="project-container" style="margin-top: 20px">
 <span class="project-transparency" style="background: rgba(128,60,0,0.3);"></span>
   <div class="project-title" style="color: #052049">IBM Award: THINKING FAST AND SLOW IN AI 461204</div>
 </div>
