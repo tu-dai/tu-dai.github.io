@@ -1,7 +1,10 @@
 - name: Harper Lyon
   image: hlyon.jpg
+  altimage:
   position: Research Assistant
   email: hlyon@tulane.edu
+  scholar:
+  twitter:
   website: https://harplyon.github.io
   description: I'm a PhD student working under Prof. Mattei on AI Ethics, governance, and other topics.
 
