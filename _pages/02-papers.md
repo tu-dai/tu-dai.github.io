@@ -3,7 +3,7 @@ layout: page
 permalink: /papers/
 title: papers
 description: 
-years: [Year 1, Year 2, Year 3]
+years: [2023, Year 2, Year 3]
 ---
 
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
