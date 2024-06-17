@@ -1,3 +1,10 @@
+- name: Harper Lyon
+  image: hlyon.jpg
+  position: Research Assistant
+  email: hlyon@tulane.edu
+  website: https://harplyon.github.io
+  description: I'm a PhD student working under Prof. Mattei on AI Ethics, governance, and other topics.
+
 
 - name: Nicole Smith-Vaniz
   image: Nicole.jpeg
