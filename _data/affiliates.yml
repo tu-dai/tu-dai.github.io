@@ -1,24 +1,20 @@
 
-- name: Affiliate 1
-  degrees: Degree name  
+- name: Undergraduate 1
+  major/degree in progress: Degree name  
   image: Insert image of affiliate 1
   position: Position 
-  email: affiliate 1 (at) email
+  email: undergraduate (at) email
   website: Insert email 
-  scholar: Insert scholar
-  twitter: Twitter handle
   description: 
 
-               Description of affiliate 1
+               Description of undergraduate 1
 
-- name: Affiliate 2
-  degrees: Degree name  
+- name: Undergraduate 2
+   major/degree in progress: Degree name    
   image: Insert image of affiliate 2
   position: Position 
-  email: affiliate 2 (at) email
-  website: Insert email 
-  scholar: Insert scholar
-  twitter: Twitter handle
+  email: Undergraduate 2 (at) email
+  website: Insert if applicable 
   description: 
 
-               Description of affiliate 2
+               Description of undergraduate 2
