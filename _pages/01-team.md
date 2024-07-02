@@ -36,7 +36,7 @@ description:
 {% endfor %}
 
 {% if site.data.students %}
-  <h2 id="graduate students">students</h2>
+  <h2 id="graduate students">graduate students</h2>
   {% for person in site.data.students %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
@@ -67,7 +67,7 @@ description:
 {% endif %}
 
 {% if site.data.affiliates %}
-  <h2 id="undergraduate students">affiliate members</h2>
+  <h2 id="undergraduate students">undergraduate students</h2>
   {% for person in site.data.affiliates %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
