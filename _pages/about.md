@@ -41,7 +41,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Contact
 Nicholas Mattei can be reached here, remember to substitute between the angle brackets!
 
-<i class="fa fa-envelope"></i> *nsmattei <AT> tulane.edu*
+<i class="fa fa-envelope"></i> *nsmattei@tulane.edu*
 
 ---
 
