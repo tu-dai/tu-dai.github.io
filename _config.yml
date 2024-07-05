@@ -5,7 +5,7 @@ email: nmattei@tulane.edu
 description: > # this means to ignore newlines until "baseurl:"
   AI Lab at Tulane University
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: tu-dai.github.io
+url: https://tu-dai.github.io
 last_updated: # leave blank if you don't want to display last updated
 #twitter_username: jekyllrb
 #github_username:  jekyll
@@ -66,7 +66,7 @@ plugins:
     - jekyll-paginate
     - jemoji
     - jekyll-sitemap
-
+    - jekyll/scholar
 
 # -----------------------------------------------------------------------------
 # Other settings

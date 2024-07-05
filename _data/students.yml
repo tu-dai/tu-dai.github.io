@@ -1,47 +1,22 @@
-
-- name: Abraham Dada
-  image: Team_abraham-dada.jpg
-  altimage: 
-  position: Medical Student
-  email: Abrahan.Dada (at) ucsf.edu
-  website: 
+- name: Harper Lyon
+  image: hlyon.jpg
+  altimage:
+  position: Research Assistant
+  email: hlyon (at) tulane.edu
   scholar:
   twitter:
-  description: I am a medical student at the University of Califonria, San Francisco. After working at Dreem Health, a 
-               neurotech company expanding access to sleep care, I was eager to join the Decision Lab and understand public
-               reception to neuro innovation. My contributions to our Neuroethics Survey Project seek to outline how race,
-               ethnicty, and rurality influence beliefs about therapeutic implanated neural devices. Previously, I've explored 
-               social cognition, dementia, and I hope to pursue further research in neural interfaces at UCSF.
+  website: https://harplyon.github.io
+  description: I'm a PhD student working under Prof. Mattei on AI Ethics, governance, and other topics. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
-               I recieved my B.A. in Neuroscience with a minor in Social Anthropology from Harvard Univeristy. Determined to 
-               bridge the slow, yet insightful practices of research with the rapid, socially impactful capital of investing, 
-               I interned at BrainMind, a community of neuroscientists, investors, philathropists, and entrepreneurs looking to 
-               bring socially-impactful neuro innovatios to market, during college. While at BrainMind, I devoted my time to 
-               developing its flagship, Neuroethics Advisory Commitee. Convening policymakers, academics, entrepreneurs, and investors
-               we sought to challenge this multidisplincary group to rethink how we sustainably integrate ethics into neuro innovation.
-               
-               Outside of neurotech, ethics, and medicine, I enjoy working out, and playing guitar and basketball.
-               
-  pubmed_name:
-
-
-
-- name: Chenyu Wang
-  image: team_Chenyu-Wang.jpeg
+- name: Nicole Smith-Vaniz
+  image: Nicole.jpeg
   altimage: 
-  position: Graduate Student
-  email: chenyu.wang2 (at) ucsf.edu
-  website: 
+  position: Research Assistant 
+  email: nsmithvaniz (at) tulane.edu
+  website: https://nsmithvaniz.github.io/
   scholar:
   twitter:
-  description: I am a graduate student at the University of California, San Francisco in Health Data Science. I received 
-               my B.S. in Statistics from the University of British Columbia. I am interested in using task-based functional 
-               MRI, online population-based methods, and computational behavioral modeling to investigate the neural bases of 
-               decision-making in the aging brain, focusing on how brain systems involved in financial and medical decisions 
-               are influenced by health and disease. I would be honored to learn from the accomplished team of researchers 
-               and contribute to our lab's success. Outside of research, I enjoy doing sports and watching YouTube.
-               
-  pubmed_name:
+  description: Nicole is a research assistant, bringing a unique blend of public health and writing expertise and a developing interest in artificial intelligence. Nicole’s journey into AI began with a course on the subject, where she discovered her fascination with machine learning. Recognizing the vast learning curve, she has proactively immersed herself in computer science principles and programming languages, working on projects such as building this website. Nicole’s focus within the lab is at the intersection of AI and morality. As a philosophy minor, she is interested in delving into the ethical dimensions of AI applications, considering issues such as personalized AI ethicality and grappling with the alignment problem. She hopes to contribute to Dr. Nick’s team, exploring these matters through various morality projects.
 
 

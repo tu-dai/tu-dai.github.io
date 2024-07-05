@@ -1,26 +1,25 @@
 <header class="site-header">
 		
-		<div class="top-banner logo light-blue">
+		<!-- div class="top-banner logo light-blue">
 	        <div class="inner">
 	            <div>
-	                <a class="logotype" href="http://www.ucsf.edu/" target="_blank" rel="noopener noreferrer">
-	                    <span>University of California San Francisco</span>
+	                <a class="logotype" href="https://sse.tulane.edu/cs" target="_blank" rel="noopener noreferrer">
+	                    <span>Tulane University</span>
 	                </a>
 	            </div>
 	            <div class="nav">
 	                <ul class="top-banner-menu">
-	                    <li><a href="http://www.ucsf.edu/about" target="_blank" rel="noopener noreferrer">About UCSF</a></li>
-	                    <li><a href="http://www.ucsf.edu/search" target="_blank" rel="noopener noreferrer">Search UCSF</a></li>
-	                    <li><a href="http://www.ucsfhealth.org/" target="_blank" rel="noopener noreferrer">UCSF Health</a></li>
+	                    <li><a href="CEAI about page" target="_blank" rel="noopener noreferrer">About CEAI</a></li>
+	                    <li><a href="Tulane AI" target="_blank" rel="noopener noreferrer">Tulane AI</a></li>
 	                </ul>
 	            </div>
 	        </div>
-	    </div>
+	    </div -->
 
   <div class="wrapper">
 
     {% if page.layout != "about" %}
-    <a class="site-title" href="{{ site.baseurl | prepend: site.url }}/"><img style="display: inline-block; vertical-align: middle; padding-right: 2px; margin-bottom: 8px" src="{{ 'rbrain4-45.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">Decision Lab</a>
+    <a class="site-title" href="{{ site.baseurl | prepend: site.url }}/"><img style="display: inline-block; vertical-align: middle; padding-right: 2px; margin-bottom: 8px" src="{{ 'rbrain4-45.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">Tulane AI Lab</a>
     
     {% endif %}
 
@@ -38,7 +37,7 @@
         <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><i class="fas fa-home"></i></a>
 
         <!-- News -->
-        <a class="page-link" href="{{ '/news/' | prepend: site.baseurl | prepend: site.url }}">news</a>
+        <!-- a class="page-link" href="{{ '/news/' | prepend: site.baseurl | prepend: site.url }}">news</a -->
 
         <!-- Pages -->
         {% for page in site.pages %}
@@ -47,7 +46,7 @@
           {% endif %}
         {% endfor %}
 
-        <a class="page-link" href="{{ '/handbook/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">handbook</a>
+        <!-- a class="page-link" href="{{ '/handbook/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">handbook</a -->
       </div>
     </nav>
 
