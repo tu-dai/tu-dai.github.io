@@ -5,6 +5,13 @@ permalink: /projects/
 description: 
 ---
 
+<div id="neurotech" class="project-container">
+  <img src="{{ site.baseurl }}/assets/img/projects-neurotech.jpg" alt="Background iamge for Neuroethics in Novel Neurotechnologies. Photo by Tim Marshall on Unsplash." style="width: 100%;">
+  <span class="project-transparency" style="background: rgba(128,60,0,0.3);"></span>
+  <div class="project-title" style="color: #007cbe">Neuroethics in Novel Neurotechnologies</div>
+</div>
+New technologies that modulate brain function have tremendous potential for alleviating the burden of neuropsychiatric illness, but raise challenging ethical and societal questions. The President’s Bioethics Commission and other experts have called for the integration of ethics and neuroscience, which will require collaboration across humanistic and scientific disciplines as well as the engagement of patients and researchers at the forefront of novel neurotechnologies. 
+
 <div class="project-title" style="color: #052049">IBM Award: THINKING FAST AND SLOW IN AI 461204</div>
 <div id="gbd" class="project-container" style="margin-top: 0px">
  
