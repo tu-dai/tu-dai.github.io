@@ -5,8 +5,9 @@ permalink: /projects/
 description: 
 ---
 
+<div class="project-title" style="color: #052049">IBM Award: THINKING FAST AND SLOW IN AI 461204</div>
 <div id="gbd" class="project-container" style="margin-top: 0px">
-  <div class="project-title" style="color: #052049">IBM Award: THINKING FAST AND SLOW IN AI 461204</div>
+ 
 This paper proposes a research direction to advance AI which draws inspiration from cognitive theories of humandecision making. The premise is that if we gain insights about the causes of some human capabilities that are still lacking in AI (for instance, adaptability, generalizability, common sense, and causal reasoning), we may obtain similar capabilities in an AI system by embedding these causal components. We hope that the high-level description of our vision included in this paper, as well as the several research questions that we propose to consider, can stimulate the AI research community to define, try and evaluate new methodologies, frameworks, and evaluation metrics, in the spirit of achieving a better understanding of both human and machine intelligence.
 </div>
 
@@ -45,7 +46,7 @@ The Center for Community-Engaged Artificial Intelligence at Tulane University be
   <span class="project-transparency" style="background: rgba(0.4,0.4,0.4,0.4);"></span>
   <div class="project-title" style="color: #d1d3d3">CAREER: Making Better Decisions: A Proposal for Human-Centered Computational Social Choice using Artificial Intelligence and Data</div>
 The research is organized around a Grand Challenge of building systems and developing the underlying algorithms necessary to facilitate better decisions in online, deliberative, and interactive environments in ways that align with human values and under human control. To tackle this grand challenge, the research will focus on (1) developing new data, models, and metrics of agent preferences for both outcomes and mechanisms, and (2) fundamental research to create novel algorithms and mechanisms for human-centered computational social choice, to create a use-inspired feedback loop with the broader impacts of the award. All code and data collected and developed as part of this project will be released in the unified PrefLib framework and the project will support students in service learning classes to work with local non-profit stakeholders.
+</div>
 
 <i class="fas fa-external-link-alt"></i> [Information page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2339880){:target="\_blank"}
 
-</div>
