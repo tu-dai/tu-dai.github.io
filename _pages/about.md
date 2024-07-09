@@ -13,7 +13,7 @@ profile:
 news: false
 social: false
 ---
-Insert lab information/intro
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 1. **Focus Area 1**
 
@@ -26,26 +26,22 @@ Insert lab information/intro
 ---
 
 ## Partners
-
-Insert partners and affiliations.
-
 <div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
 <div class="clearfix" style="width: 100%; clear: both;">
-    <a href="Website to partner 1" target="_blank"><img style="width: 45%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/image of parter 1 name" alt="Image logo description"></a>
-    <a href="Website to partner 2" target="_blank"><img style="width: 50%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/image of partner 2 name" alt="Image logo description"></a>
+    <a href="https://ai.tulane.edu/ceai" target="_blank"><img style="width: 45%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/image of parter 1 name" alt="Tulane Center for Community-Engaged Artificial Intelligence"></a>
+    <a href="https://www.cs.tulane.edu//~aculotta/" target="_blank"><img style="width: 50%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/image of partner 2 name" alt="Aron Culotta"></a>
 </div>
 <div style="width: 100%; clear: both; margin-bottom: 15px">
 </div>
 
 <a rel="me" href="https://neuromatch.social/@winstonchiong"> - </a>
-
 ---
 
 ## Contact
-Insert contact information  
+Nicholas Mattei can be reached here, remember to substitute between the angle brackets!
 
-<i class="fa fa-envelope"></i> *Contact name (at) email address*
+<i class="fa fa-envelope"></i> *nsmattei@tulane.edu*
 
 ---
 
