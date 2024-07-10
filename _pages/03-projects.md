@@ -6,12 +6,13 @@ description:
 ---
 
 <div id="gbd" class="project-container" style="margin-top: 0px">
-  <img src="{{ site.baseurl }}/assets/img/projects-tfsai.jpg" alt="Background image for THINKING FAST AND SLOW IN AI" style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-tfsai.jpeg" alt="Background image for THINKING FAST AND SLOW IN AI" style="width: 100%;">
   <div class="project-title" style="color: #052049">IBM Award: THINKING FAST AND SLOW IN AI 461204</div>
 </div>
 This paper proposes a research direction to advance AI which draws inspiration from cognitive theories of humandecision making. The premise is that if we gain insights about the causes of some human capabilities that are still lacking in AI (for instance, adaptability, generalizability, common sense, and causal reasoning), we may obtain similar capabilities in an AI system by embedding these causal components. We hope that the high-level description of our vision included in this paper, as well as the several research questions that we propose to consider, can stimulate the AI research community to define, try and evaluate new methodologies, frameworks, and evaluation metrics, in the spirit of achieving a better understanding of both human and machine intelligence.
 
 <div id="neurotech" class="project-container">
+  <img src="{{ site.baseurl }}/assets/img/projects-ethicalprinciples.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(128,60,0,0.3);"></span>
   <div class="project-title" style="color: #007cbe">Collaborative Research: RI: Small: Modeling and Learning Ethical Principles for Embedding into Group Decision Support Systems</div>
 </div>
@@ -20,6 +21,7 @@ This research seeks to make AI more accountable by providing mechanisms to bound
 <i class="fas fa-external-link-alt"></i> [Information page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007955){:target="\_blank"}
 
 <div id="dma" class="project-container">
+  <img src="{{ site.baseurl }}/assets/img/projects-socialchoice.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0,40,90,.2);"></span>
   <div class="project-title" style="color: #f26d04">III: Medium: Collaborative Research: Fair Recommendation Through Social Choice</div>
 </div>
@@ -28,6 +30,7 @@ The multidisciplinary team on this project includes experts in recommender syste
 <i class="fas fa-external-link-alt"></i> [Information page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107505){:target="\_blank"}
 
 <div id="agingcog" class="project-container">
+  <img src="{{ site.baseurl }}/assets/img/projects-mechanismsalgorithms.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0.4,0.4,0.4,0.4);"></span>
   <div class="project-title" style="color: #d1d3d3">NSF-BSF: RI: Small: Mechanisms and Algorithms for Improving Peer Selection</div>
 </div>
@@ -36,6 +39,7 @@ The project will expand our knowledge and building mechanisms for peer evaluatio
 <i class="fas fa-external-link-alt"></i> [Information page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2134857){:target="\_blank"}
 
 <div id="agingcog" class="project-container">
+  <img src="{{ site.baseurl }}/assets/img/projects-ceai.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0.4,0.4,0.4,0.4);"></span>
   <div class="project-title" style="color: #d1d3d3">Tulane Office of Research: Center for Community Engaged AI</div>
 </div>
@@ -44,6 +48,7 @@ The Center for Community-Engaged Artificial Intelligence at Tulane University be
 <i class="fas fa-external-link-alt"></i> [Information page](https://ai.tulane.edu/ceai){:target="\_blank"}
 
 <div id="agingcog" class="project-container">
+  <img src="{{ site.baseurl }}/assets/img/projects-humancenteredcomp.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0.4,0.4,0.4,0.4);"></span>
   <div class="project-title" style="color: #d1d3d3">CAREER: Making Better Decisions: A Proposal for Human-Centered Computational Social Choice using Artificial Intelligence and Data</div>
 </div>
