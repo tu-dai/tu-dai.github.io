@@ -1,10 +1,10 @@
-- name: Collaborator 1 name
+- name: Former member 1 name
   degrees: Degree
   position: Position
   email: Email
   website: Website
 
-- name: Collaborator 2 name
+- name: Former member 2 name
   degrees: Degree
   position: Position
   email: Email
