@@ -35,9 +35,9 @@ description:
 <hr>
 {% endfor %}
 
-{% if site.data.students %}
+{% if site.data.grad %}
   <h2 id="graduate students">graduate students</h2>
-  {% for person in site.data.students %}
+  {% for person in site.data.grad %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
     <div>
@@ -66,9 +66,9 @@ description:
   {% endfor %}
 {% endif %}
 
-{% if site.data.affiliates %}
+{% if site.data.undergrad %}
   <h2 id="undergraduate students">undergraduate students</h2>
-  {% for person in site.data.affiliates %}
+  {% for person in site.data.undergrad %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
     <div>
@@ -99,3 +99,12 @@ description:
 
 ---
 
+## former members
+
+{% for former in site.data.former %}
+<div id = "{{ former.name | replace: ' ', '-' | remove: '.' }}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
+<strong>{{former.name}}{% if former.degrees %}, {{former.degrees}} {% endif %}</strong><br>  
+  {{former.position}}<br>
+  {% if former.website %} <i class="fa fa-globe"></i> <a href= "{{former.website}}" target="_blank">{{former.website}}</a>  {% endif %}
+</div>
+{% endfor %}
