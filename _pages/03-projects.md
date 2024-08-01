@@ -15,9 +15,9 @@ This paper proposes a research direction to advance AI which draws inspiration f
   <img src="{{ site.baseurl }}/assets/img/projects-ethicalprinciples.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(128,60,0,0.3);"></span>
   <!--
-  <div class="project-title" style="color: #007cbe">Collaborative Research: RI: Small: Modeling and Learning Ethical Principles for Embedding into Group Decision Support Systems</div>
+  <div class="project-title" style="color: #d1d3d3">Collaborative Research: RI: Small: Modeling and Learning Ethical Principles for Embedding into Group Decision Support Systems</div>
   -->
-  <div class="project-title" style="color: #007cbe">Modeling Ethical Principles for Group Decisions</div>
+  <div class="project-title" style="color: #d1d3d3">Modeling Ethical Principles for Group Decisions</div>
 </div>
 This research seeks to make AI more accountable by providing mechanisms to bound the decisions that AI systems can make, ensuring that the outcomes of the group decision making process aligns with human values. To achieve the goal of building ethically-bounded, AI-enabled group decision making systems, this project takes inspiration from humans, who often constrain their decisions and actions according to a number of exogenous priorities coming from moral, ethical, or business values. This research project will address the current lack of principled, formal approaches for embedding ethics into AI agents and AI enabled group decision support systems by advancing the state of the art in the safety and robustness of AI agents which, given how broadly AI touches our daily lives, will have broad impact and benefit to society.
 
@@ -29,7 +29,7 @@ This research seeks to make AI more accountable by providing mechanisms to bound
   <!--
   <div class="project-title" style="color: #d1d3d3">III: Medium: Collaborative Research: Fair Recommendation Through Social Choice</div>
   -->
-  <div class="project-title" style="color: #f26d04">Fair Recommendation Through Social Choice</div>
+  <div class="project-title" style="color: #d1d3d3">Fair Recommendation Through Social Choice</div>
 </div>
 The multidisciplinary team on this project includes experts in recommender systems, computational social choice, and philanthropic informatics. The team will create new fairness-aware recommendation algorithms that are fundamentally multi-agent in nature and based on algorithmic game theory. From this novel vantage point, the project will reformulate recommendation fairness as a combination of social choice allocation and aggregation problems, which integrate both fairness concerns and personalized recommendation provisions, and derive new recommendation techniques based on this formulation. Working with their non-profit partner, the researchers will conduct interviews and focus groups with diverse stakeholders, building models of the different ways that fairness is operationalized within this organizational context, and generalize these techniques to apply to other organizations. The project will create a model deployment of their multi-stakeholder fairness solution and use both quantitative and qualitative techniques to evaluate it from the perspective of both users and internal stakeholders.
 </div>
@@ -51,7 +51,10 @@ The project will expand our knowledge and building mechanisms for peer evaluatio
 <div id="agingcog" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/projects-ceai.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0.4,0.4,0.4,0.4);"></span>
+  <!--
   <div class="project-title" style="color: #d1d3d3">Tulane Office of Research: Center for Community Engaged AI</div>
+  -->
+  <div class="project-title" style="color: #d1d3d3">Tulane Center for Community Engaged AI</div>
 The Center for Community-Engaged Artificial Intelligence at Tulane University believes that AI will succeed only with the trust and support of the communities it affects, especially those from historically underserved groups. The motivating principle of the Center is that this trust must be earned by designing AI systems (1) that are demonstrably fair, transparent, and accountable, (2) that establish meaningful relationships to engage diverse communities in all stages of the AI process, from design through deployment, and (3) that augment, rather than replace, human interaction, i.e., are human centered. Achieving this vision requires a transformative approach to AI design. The Center will establish a truly multi-disciplinary team of technologists, designers, social scientists, and community partners for examining and affording new evidence-based socio-technical frameworks to create and deploy AI systems that are inclusive, effective, fair, transparent, and accountable.
 </div>
 
@@ -60,7 +63,10 @@ The Center for Community-Engaged Artificial Intelligence at Tulane University be
 <div id="agingcog" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/projects-humancenteredcomp.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0.4,0.4,0.4,0.4);"></span>
+   <!--
   <div class="project-title" style="color: #d1d3d3">CAREER: Making Better Decisions: A Proposal for Human-Centered Computational Social Choice using Artificial Intelligence and Data</div>
+  -->
+  <div class="project-title" style="color: #d1d3d3">Human-Centered Computational Social Choice using Artificial Intelligence and Data</div>
 The research is organized around a Grand Challenge of building systems and developing the underlying algorithms necessary to facilitate better decisions in online, deliberative, and interactive environments in ways that align with human values and under human control. To tackle this grand challenge, the research will focus on (1) developing new data, models, and metrics of agent preferences for both outcomes and mechanisms, and (2) fundamental research to create novel algorithms and mechanisms for human-centered computational social choice, to create a use-inspired feedback loop with the broader impacts of the award. All code and data collected and developed as part of this project will be released in the unified PrefLib framework and the project will support students in service learning classes to work with local non-profit stakeholders.
 </div>
 
