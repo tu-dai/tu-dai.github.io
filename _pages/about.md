@@ -4,12 +4,6 @@ permalink: /
 title: Tulane AI
 description: TBD
 
-profile: 
-  align: right
-  image: Image of Building
-  address: > 
-    <p>Building Name and/or address</p>
-
 news: false
 social: false
 ---
