@@ -14,7 +14,10 @@ This paper proposes a research direction to advance AI which draws inspiration f
 <div id="neurotech" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/projects-ethicalprinciples.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(128,60,0,0.3);"></span>
+  <!--
   <div class="project-title" style="color: #007cbe">Collaborative Research: RI: Small: Modeling and Learning Ethical Principles for Embedding into Group Decision Support Systems</div>
+  -->
+  <div class="project-title" style="color: #007cbe">Modeling Ethical Principles for Group Decisions</div>
 </div>
 This research seeks to make AI more accountable by providing mechanisms to bound the decisions that AI systems can make, ensuring that the outcomes of the group decision making process aligns with human values. To achieve the goal of building ethically-bounded, AI-enabled group decision making systems, this project takes inspiration from humans, who often constrain their decisions and actions according to a number of exogenous priorities coming from moral, ethical, or business values. This research project will address the current lack of principled, formal approaches for embedding ethics into AI agents and AI enabled group decision support systems by advancing the state of the art in the safety and robustness of AI agents which, given how broadly AI touches our daily lives, will have broad impact and benefit to society.
 
