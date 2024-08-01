@@ -26,7 +26,11 @@ This research seeks to make AI more accountable by providing mechanisms to bound
 <div id="dma" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/projects-socialchoice.jpeg" alt="Background iamge" style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0,40,90,.2);"></span>
-  <div class="project-title" style="color: #f26d04">III: Medium: Collaborative Research: Fair Recommendation Through Social Choice</div>
+  <!--
+  <div class="project-title" style="color: #d1d3d3">III: Medium: Collaborative Research: Fair Recommendation Through Social Choice</div>
+  -->
+  <div class="project-title" style="color: #f26d04">Fair Recommendation Through Social Choice</div>
+</div>
 The multidisciplinary team on this project includes experts in recommender systems, computational social choice, and philanthropic informatics. The team will create new fairness-aware recommendation algorithms that are fundamentally multi-agent in nature and based on algorithmic game theory. From this novel vantage point, the project will reformulate recommendation fairness as a combination of social choice allocation and aggregation problems, which integrate both fairness concerns and personalized recommendation provisions, and derive new recommendation techniques based on this formulation. Working with their non-profit partner, the researchers will conduct interviews and focus groups with diverse stakeholders, building models of the different ways that fairness is operationalized within this organizational context, and generalize these techniques to apply to other organizations. The project will create a model deployment of their multi-stakeholder fairness solution and use both quantitative and qualitative techniques to evaluate it from the perspective of both users and internal stakeholders.
 </div>
 
