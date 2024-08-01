@@ -7,7 +7,6 @@ description:
 
 <div id="postdoc-neuroethics" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/hiring_postdoc.jpg" alt=" " style="width: 100%;">
-  <div class="project-title" style="color: #ffffff">Position title</div>
 </div>
 
 Thank you for your inquiry about Tulane Computer Science and working in my lab. I get many of these emails so sorry for the impersonal response here but there are several steps every potential student must take and a timeline that admissions are handled on.
