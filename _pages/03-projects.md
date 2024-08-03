@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 ---
 
-<div id="agingcog" class="project-container">
+<div id="agingcog" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/imp/projects-tfsai.jpeg" alt="Background image for Thinking Fast and slow" style="width: 100%;">
   <div class="project-title" style="color: #052049">IBM Award: THINKING FAST AND SLOW IN AI 461204</div>
 </div>
