@@ -1,0 +1,15 @@
+---
+layout: page
+title: Talks
+permalink: /talks/
+intro: Invited talks, keynotes, panels, and public lectures.
+---
+{%- comment -%} The list comes from _data/talks.yml, newest first. {%- endcomment -%}
+<ul class="talks">
+  {%- for talk in site.data.talks %}
+  <li>
+    <span class="talk-when">{{ talk.when }}</span>
+    <span class="talk-what">{% if talk.link %}<a href="{{ talk.link }}">{{ talk.talk }}</a>{% else %}{{ talk.talk }}{% endif %}</span>
+  </li>
+  {%- endfor %}
+</ul>

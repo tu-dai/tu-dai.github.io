@@ -1,0 +1,95 @@
+# Site settings. After editing this file, the site rebuilds on its own.
+
+title: TU-DAI
+full_name: Tulane Data and AI Lab
+description: >-
+  The Tulane Data and AI Lab studies how people and AI systems make decisions together,
+  from voting and peer review to fair recommendations and community-engaged AI.
+url: https://tu-dai.github.io
+baseurl: ""
+
+# Shown in the footer
+address:
+  - Department of Computer Science, Tulane University
+  - 303 Stanley Thomas Hall, 6823 St. Charles Avenue
+  - New Orleans, LA 70118
+contact_email: nsmattei@tulane.edu
+github: https://github.com/tu-dai
+
+# Top navigation, in order
+nav:
+  - title: People
+    url: /people/
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Talks
+    url: /talks/
+  - title: News
+    url: /news/
+
+# How many items the home page shows
+home:
+  news: 6
+  publications: 6
+  talks: 4
+
+# People page sections, in order. Each person's `role` must match one of these.
+people_groups:
+  - role: Director
+    heading: Director
+  - role: Postdoc
+    heading: Postdoctoral researchers
+  - role: PhD Student
+    heading: PhD students
+  - role: Masters Student
+    heading: Masters students
+  - role: Undergraduate
+    heading: Undergraduate researchers
+  - role: Alumni
+    heading: Alumni
+
+# Research page sections. Each project's `thrust` must match one of these ids.
+thrusts:
+  - id: decisions
+    title: Better collective decisions
+    summary: >-
+      Algorithms and mechanisms for groups that vote, allocate, select, and review,
+      built on real preference data and experiments with people.
+  - id: impact
+    title: Decision making for societal impact
+    summary: >-
+      Fair recommendation, auditing algorithms, and data science for education,
+      taking social choice ideas into settings where the stakes are high.
+  - id: community
+    title: Community-engaged AI
+    summary: >-
+      AI built with community partners in New Orleans and beyond, for courts,
+      city government, and public health.
+
+collections:
+  people:
+    output: true
+    permalink: /people/:name/
+  news:
+    output: false
+  projects:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: person
+
+plugins:
+  - jekyll-sitemap
+
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

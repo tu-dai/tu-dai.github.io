@@ -1,0 +1,20 @@
+{%- comment -%}
+  Prints `authors` with lab members in bold.
+  A member is matched by their `name`, or by every spelling in their `pub_names` list.
+  Set `authors` before including this file.
+  Variables here start with "bold_" because includes share variables with the page
+  that includes them; plain names like `person` would overwrite the page's own.
+{%- endcomment -%}
+{%- assign bold_authors = authors -%}
+{%- for bold_member in site.people -%}
+  {%- if bold_member.pub_names -%}
+    {%- assign bold_spellings = bold_member.pub_names -%}
+  {%- else -%}
+    {%- assign bold_spellings = bold_member.name | split: "|" -%}
+  {%- endif -%}
+  {%- for bold_spelling in bold_spellings -%}
+    {%- assign bold_tagged = "<strong>" | append: bold_spelling | append: "</strong>" -%}
+    {%- assign bold_authors = bold_authors | replace: bold_spelling, bold_tagged -%}
+  {%- endfor -%}
+{%- endfor -%}
+{{ bold_authors }}

@@ -1,0 +1,37 @@
+---
+layout: page
+title: Research
+permalink: /research/
+intro: >-
+  Our work runs from theory to deployed systems. We use theory, data, and experiments
+  with people to design algorithms and mechanisms for group decisions, then take
+  them into settings where fairness and trust matter.
+---
+{%- comment -%}
+  Sections come from `thrusts` in _config.yml.
+  Each file in _projects/ is one project; its `thrust` decides the section and `order` sorts it.
+{%- endcomment -%}
+{%- for thrust in site.thrusts %}
+<section class="thrust-section" id="{{ thrust.id }}">
+  <h2 class="section-title">{{ thrust.title }}</h2>
+  <p class="thrust-summary">{{ thrust.summary }}</p>
+  {%- assign projects = site.projects | where: "thrust", thrust.id | sort: "order" %}
+  <ul class="projects">
+    {%- for project in projects %}
+    <li class="project">
+      <h3>{% if project.link %}<a href="{{ project.link }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
+      <p class="project-meta">
+        {%- if project.funder %}<span>{{ project.funder }}</span>{% endif -%}
+        {%- if project.years %}<span>{{ project.years }}</span>{% endif -%}
+      </p>
+      <div class="prose">{{ project.content | markdownify }}</div>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}
+
+<section class="sponsors">
+  <h2 class="section-title">Support</h2>
+  <p>Our research is supported by the National Science Foundation, the Office of Naval Research, the Department of Education, IBM, Google, Equinor, and Tulane University.</p>
+</section>

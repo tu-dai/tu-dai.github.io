@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<section class="hero wrap">
+  <h1>Tulane Data and AI Lab</h1>
+  <p class="lede">We study how people and AI systems make decisions together. Our work spans computational social choice, multiagent systems, and machine learning, and we build tools with community partners in New Orleans and beyond.</p>
+  <p class="hero-links">
+    <a href="{{ '/research/' | relative_url }}">Our research</a>
+    <a href="{{ '/people/' | relative_url }}">Meet the lab</a>
+  </p>
+</section>
+
+<section class="thrusts" aria-label="Research areas">
+  <div class="wrap thrust-row">
+    {%- for thrust in site.thrusts %}
+    <a class="thrust" href="{{ '/research/' | relative_url }}#{{ thrust.id }}">
+      <h2>{{ thrust.title }}</h2>
+      <p>{{ thrust.summary }}</p>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+
+<div class="wrap home-grid">
+  <section class="home-news">
+    <div class="section-head">
+      <h2 class="section-title">News</h2>
+      <a href="{{ '/news/' | relative_url }}">All news</a>
+    </div>
+    {%- assign news = site.news | sort: "date" | reverse %}
+    <ul class="news">
+      {%- for item in news limit: site.home.news %}
+      <li>
+        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%b %Y" }}</time>
+        <div>{{ item.content | markdownify }}</div>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <section class="home-pubs">
+    <div class="section-head">
+      <h2 class="section-title">Recent publications</h2>
+      <a href="{{ '/publications/' | relative_url }}">All publications</a>
+    </div>
+    <ol class="pubs pubs-compact">
+      {%- for pub in site.data.publications limit: site.home.publications %}
+      {% include publication.html %}
+      {%- endfor %}
+    </ol>
+  </section>
+</div>
+
+<section class="wrap home-talks">
+  <div class="section-head">
+    <h2 class="section-title">Recent talks</h2>
+    <a href="{{ '/talks/' | relative_url }}">All talks</a>
+  </div>
+  <ul class="talks">
+    {%- for talk in site.data.talks limit: site.home.talks %}
+    <li>
+      <span class="talk-when">{{ talk.when }}</span>
+      <span class="talk-what">{% if talk.link %}<a href="{{ talk.link }}">{{ talk.talk }}</a>{% else %}{{ talk.talk }}{% endif %}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>

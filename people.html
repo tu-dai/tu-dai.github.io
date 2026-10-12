@@ -1,0 +1,22 @@
+---
+layout: page
+title: People
+permalink: /people/
+---
+{%- comment -%}
+  Sections come from `people_groups` in _config.yml.
+  Each file in _people/ is one person; its `role` decides the section.
+{%- endcomment -%}
+{%- for group in site.people_groups %}
+  {%- assign members = site.people | where: "role", group.role %}
+  {%- if members.size > 0 %}
+  <section class="people-group{% if group.role == 'Alumni' %} people-group-alumni{% endif %}">
+    <h2 class="section-title">{{ group.heading }}</h2>
+    <ul class="people">
+      {%- for person in members %}
+      {% include person-card.html %}
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+{%- endfor %}

@@ -1,0 +1,18 @@
+{%- comment -%} One publication. Set `pub` before including this file. {%- endcomment -%}
+<li class="pub" data-type="{{ pub.type | replace: ' ', '-' }}">
+  {%- assign type_label = pub.type | capitalize %}
+  <span class="pub-venue">{{ pub.venue_short | default: type_label }}</span>
+  <div class="pub-body">
+    <p class="pub-title">
+      {%- if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif -%}
+    </p>
+    {%- assign authors = pub.authors %}
+    <p class="pub-authors">{% include authors.html %}</p>
+    <p class="pub-meta">
+      <span class="pub-where">{{ pub.venue }}, {{ pub.year }}</span>
+      {%- if pub.award %} <span class="pub-award">{{ pub.award }}</span>{% endif %}
+      {%- if pub.pdf %} <a class="pub-link" href="{{ pub.pdf }}">PDF</a>{% endif %}
+      {%- if pub.code %} <a class="pub-link" href="{{ pub.code }}">Code</a>{% endif %}
+    </p>
+  </div>
+</li>

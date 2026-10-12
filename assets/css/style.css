@@ -1,0 +1,225 @@
+/* TU-DAI site styles. Colors and fonts are set once here, at the top. */
+
+:root {
+  --paper: #ffffff;
+  --tint: #f1f5f3;       /* footer and filter backgrounds */
+  --ink: #17211e;        /* body text */
+  --muted: #55625d;      /* secondary text */
+  --rule: #d8e0dc;       /* dividers */
+  --green: #005a3c;      /* Tulane green: links, research band */
+  --green-dark: #00412b;
+  --blue: #2a6fb0;       /* hover and focus */
+
+  --serif: "Newsreader", Georgia, serif;
+  --sans: "Libre Franklin", system-ui, sans-serif;
+
+  --wrap: 68rem;
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 1.0625rem/1.6 var(--sans);
+}
+
+img { max-width: 100%; display: block; }
+strong, b { font-weight: 600; }
+
+a { color: var(--green); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { color: var(--blue); }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; border-radius: 2px; }
+
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; margin: 0; }
+p { margin: 0 0 0.8em; }
+
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gutter); }
+
+.skip-link { position: absolute; left: -999px; }
+.skip-link:focus { left: 1rem; top: 1rem; background: var(--paper); padding: 0.5rem 1rem; z-index: 10; }
+
+/* Header */
+.site-header { border-bottom: 1px solid var(--rule); }
+.header-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem 2rem; flex-wrap: wrap; padding-top: 1rem; padding-bottom: 1rem;
+}
+.wordmark { display: flex; align-items: baseline; gap: 0.75rem; color: var(--ink); text-decoration: none; }
+.wordmark:hover { color: var(--ink); }
+.wordmark-short { font: 600 1.6rem/1 var(--serif); color: var(--green); }
+.wordmark-long { color: var(--muted); font-size: 0.95rem; }
+.site-nav { display: flex; gap: 0.25rem 1.5rem; flex-wrap: wrap; }
+.site-nav a { color: var(--ink); text-decoration: none; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
+.site-nav a:hover { color: var(--green); }
+.site-nav a[aria-current="page"] { border-bottom-color: var(--green); color: var(--green); }
+
+/* Home: hero */
+.hero { padding-top: clamp(3rem, 8vw, 5.5rem); padding-bottom: clamp(2.5rem, 6vw, 4rem); }
+.hero h1 {
+  font-size: clamp(2.6rem, 6.5vw, 4.5rem);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  line-height: 1.05;
+  max-width: 14ch;
+  text-wrap: balance;
+}
+.lede { font-size: clamp(1.15rem, 2vw, 1.35rem); line-height: 1.55; max-width: 38em; margin-top: 1.5rem; }
+.hero-links { display: flex; gap: 1.5rem; margin-top: 1.5rem; font-weight: 600; }
+
+/* Home: research band. The one bold moment on the page. */
+.thrusts { background: var(--green); color: #fff; }
+.thrust-row { display: grid; grid-template-columns: repeat(3, 1fr); }
+.thrust {
+  display: block; color: #fff; text-decoration: none;
+  padding: 2.25rem 1.75rem 2.5rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.22);
+}
+.thrust:first-child { border-left: 0; padding-left: 0; }
+.thrust:last-child { padding-right: 0; }
+.thrust h2 { font-size: 1.55rem; font-weight: 500; margin-bottom: 0.6rem; }
+.thrust p { color: rgba(255, 255, 255, 0.86); margin: 0; }
+.thrust:hover { color: #fff; background: var(--green-dark); }
+.thrust:hover h2 { text-decoration: underline; text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
+
+/* Section headings */
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem; }
+.section-title { font-size: 1.75rem; }
+.section-head a { white-space: nowrap; }
+
+.home-grid {
+  display: grid; grid-template-columns: 5fr 7fr; gap: 3.5rem;
+  padding-top: 3.5rem; padding-bottom: 1rem;
+}
+.home-talks { padding-top: 2.5rem; padding-bottom: 4rem; }
+
+/* News */
+.news { list-style: none; margin: 0; padding: 0; }
+.news li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; padding: 0.9rem 0; border-top: 1px solid var(--rule); }
+.news time { color: var(--muted); font-size: 0.95rem; padding-top: 0.05rem; }
+.news p { margin: 0; }
+
+/* Publications */
+.pubs { list-style: none; margin: 0; padding: 0; }
+.pub { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; padding: 1rem 0; border-top: 1px solid var(--rule); }
+.pub-venue { color: var(--green); font-weight: 600; font-size: 0.95rem; padding-top: 0.1rem; overflow-wrap: anywhere; }
+.pub-title { font-weight: 600; margin: 0 0 0.2rem; line-height: 1.4; }
+.pub-title a { color: var(--ink); }
+.pub-title a:hover { color: var(--blue); }
+.pub-authors { margin: 0 0 0.2rem; font-size: 0.97rem; }
+.pub-authors strong { font-weight: 600; color: var(--ink); }
+.pub-meta { margin: 0; color: var(--muted); font-size: 0.93rem; }
+.pub-where { font-style: italic; }
+.pub-award { color: var(--green); font-weight: 600; font-style: normal; margin-left: 0.4rem; }
+.pub-link { margin-left: 0.6rem; font-weight: 600; }
+.pubs-compact .pub-meta { font-size: 0.9rem; }
+
+.pub-tools {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;
+  background: var(--tint); padding: 1rem; border-radius: 8px; margin-bottom: 1rem;
+}
+.pub-tools[hidden] { display: none; }
+.pub-filters { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.pub-filters button {
+  font: inherit; font-size: 0.95rem; cursor: pointer;
+  border: 1px solid var(--rule); background: var(--paper); color: var(--ink);
+  padding: 0.35rem 0.85rem; border-radius: 999px;
+}
+.pub-filters button:hover { border-color: var(--green); }
+.pub-filters button[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
+.pub-search { display: flex; align-items: center; gap: 0.6rem; }
+.pub-search span { color: var(--muted); }
+.pub-search input {
+  font: inherit; width: min(18rem, 60vw);
+  border: 1px solid var(--rule); border-radius: 6px; padding: 0.4rem 0.7rem; background: var(--paper);
+}
+.pub-empty { color: var(--muted); padding: 1rem 0; }
+.year-title { font-size: 1.6rem; padding: 2rem 0 0.5rem; }
+.pub-year[hidden] { display: none; }
+
+/* Talks */
+.talks { list-style: none; margin: 0; padding: 0; }
+.talks li { display: grid; grid-template-columns: 8.5rem 1fr; gap: 1rem; padding: 0.75rem 0; border-top: 1px solid var(--rule); }
+.talk-when { color: var(--muted); font-size: 0.95rem; padding-top: 0.05rem; }
+
+/* Inner pages */
+.page { padding-top: 3rem; padding-bottom: 4.5rem; }
+.page-title { font-size: clamp(2.2rem, 5vw, 3rem); font-weight: 500; margin-bottom: 0.75rem; }
+.page-intro { font-size: 1.15rem; color: var(--muted); max-width: 40em; margin-bottom: 2rem; }
+.prose { max-width: 42em; }
+
+/* People */
+.people-group { margin-top: 2.75rem; }
+.people-group .section-title { margin-bottom: 1rem; }
+.people {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1.75rem 2rem;
+}
+.person { display: flex; gap: 1rem; align-items: flex-start; }
+.avatar { width: 4.5rem; height: 4.5rem; border-radius: 50%; object-fit: cover; flex: none; }
+.avatar-initials {
+  display: grid; place-items: center; background: var(--tint); color: var(--green);
+  font: 600 1.35rem/1 var(--serif);
+}
+.avatar-large { width: 9rem; height: 9rem; }
+.person-name { font-size: 1.2rem; margin-bottom: 0.2rem; }
+.person-name a { color: var(--ink); }
+.person-name a:hover { color: var(--blue); }
+.person-line { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.person-links { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; margin: 0.35rem 0 0; font-size: 0.95rem; }
+.person-links:empty { display: none; }
+.person-lead { grid-column: 1 / -1; gap: 1.75rem; }
+.person-lead .avatar { width: 9rem; height: 9rem; }
+.person-lead .person-name { font-size: 1.5rem; }
+.person-lead .person-bio { max-width: 40em; margin: 0.75rem 0 0; }
+.people-group-alumni .avatar { width: 3.25rem; height: 3.25rem; font-size: 1.05rem; }
+
+.person-head { display: flex; gap: 1.75rem; align-items: center; margin-bottom: 2rem; }
+.person-page .section-title { margin: 2.5rem 0 0.75rem; }
+
+/* Research */
+.thrust-section { margin-top: 3rem; scroll-margin-top: 1rem; }
+.thrust-section > .section-title { padding-bottom: 0.4rem; border-bottom: 2px solid var(--green); }
+.thrust-summary { color: var(--muted); max-width: 40em; margin-top: 0.75rem; }
+.projects { list-style: none; margin: 0; padding: 0; }
+.project { padding: 1.5rem 0; border-top: 1px solid var(--rule); }
+.project:first-child { border-top: 0; }
+.project h3 { font-size: 1.3rem; margin-bottom: 0.3rem; }
+.project h3 a { color: var(--ink); }
+.project-meta { display: flex; flex-wrap: wrap; gap: 0 1.25rem; color: var(--green); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.6rem; }
+.project .prose p:last-child { margin-bottom: 0; }
+.sponsors { margin-top: 3rem; }
+.sponsors p { max-width: 42em; margin-top: 0.75rem; }
+
+/* Footer */
+.site-footer { background: var(--tint); border-top: 1px solid var(--rule); font-size: 0.95rem; }
+.footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem 3rem; padding-top: 2.25rem; padding-bottom: 2.25rem; }
+.footer-name { font: 600 1.15rem/1.3 var(--serif); margin-bottom: 0.4rem; }
+address { font-style: normal; color: var(--muted); }
+
+/* Small screens */
+@media (max-width: 52rem) {
+  .thrust-row { grid-template-columns: 1fr; }
+  .thrust, .thrust:first-child, .thrust:last-child {
+    padding: 1.6rem 0; border-left: 0; border-top: 1px solid rgba(255, 255, 255, 0.22);
+  }
+  .thrust:first-child { border-top: 0; }
+  .thrust:hover { background: none; }
+  .home-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+}
+@media (max-width: 34rem) {
+  .person-lead { flex-direction: column; }
+  .site-nav { gap: 0.25rem 1rem; font-size: 0.97rem; }
+  .wordmark-long { display: none; }
+  .pub, .news li, .talks li { grid-template-columns: 1fr; gap: 0.2rem; }
+  .pub-venue:empty { display: none; }
+  .person-head { flex-direction: column; align-items: flex-start; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; }
+}

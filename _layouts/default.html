@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- assign tab_title = page.title | default: page.name -%}
+  <title>{% if tab_title %}{{ tab_title }} | {% endif %}{{ site.full_name }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | strip }}">
+  <link rel="icon" href="{{ '/assets/img/logo.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;1,400&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}">
+        <span class="wordmark-short">TU-DAI</span>
+        <span class="wordmark-long">Tulane Data and AI Lab</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        {%- for item in site.nav %}
+        <a href="{{ item.url | relative_url }}"{% if page.url contains item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        {%- endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-name">{{ site.full_name }}</p>
+        <address>
+          {%- for line in site.address %}
+          {{ line }}<br>
+          {%- endfor %}
+        </address>
+      </div>
+      <div>
+        <p>Interested in working with us? Email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p>
+        <p><a href="{{ site.github }}">TU-DAI on GitHub</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

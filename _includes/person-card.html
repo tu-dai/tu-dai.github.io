@@ -1,0 +1,30 @@
+{%- comment -%} One person on the People page. Set `person` before including this file. {%- endcomment -%}
+{%- assign bio = person.content | strip_html | strip -%}
+<li class="person{% if person.role == 'Director' %} person-lead{% endif %}">
+  {%- if person.photo %}
+  <img class="avatar" src="{{ '/assets/img/people/' | append: person.photo | relative_url }}" alt="" loading="lazy">
+  {%- else %}
+  {%- assign parts = person.name | split: " " %}
+  <span class="avatar avatar-initials" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>
+  {%- endif %}
+  <div class="person-text">
+    <h3 class="person-name">
+      {%- if bio != "" %}<a href="{{ person.url | relative_url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif -%}
+    </h3>
+    {%- if person.position %}<p class="person-line">{{ person.position }}</p>{% endif %}
+    {%- if person.note %}<p class="person-line">{{ person.note }}</p>{% endif %}
+    {%- if person.was %}<p class="person-line">{{ person.was }}</p>{% endif %}
+    {%- if person.now %}<p class="person-line">Now: {{ person.now }}</p>{% endif %}
+    {%- if person.since %}<p class="person-line">Joined {{ person.since }}</p>{% endif %}
+    {%- if person.role == "Director" and bio != "" %}
+    {%- assign first_paragraph = person.content | split: "</p>" | first | strip_html | strip %}
+    <p class="person-bio">{{ first_paragraph }} <a href="{{ person.url | relative_url }}">Full bio</a></p>
+    {%- endif %}
+    <p class="person-links">
+      {%- if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+      {%- if person.website %}<a href="{{ person.website }}">Website</a>{% endif %}
+      {%- if person.scholar %}<a href="{{ person.scholar }}">Scholar</a>{% endif %}
+      {%- if person.github %}<a href="{{ person.github }}">GitHub</a>{% endif %}
+    </p>
+  </div>
+</li>

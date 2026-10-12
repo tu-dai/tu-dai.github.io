@@ -1,0 +1,980 @@
+# Publications, newest first. Copy any entry to add a new paper.
+# Required: title, authors, venue, year, type
+#   type is one of: conference, journal, workshop, chapter, book, edited volume
+# Optional: venue_short (e.g. AAMAS), url, pdf, code, award
+
+- title: 'AI In the Public Sphere: Citizen Engagement and Governance'
+  authors: Saad Hassan, Motahhare Eslami, Nicholas Mattei, Aron Culotta, and John Zimmerman
+  venue: In Thomas W. Sanchez and Xinyue Ye (Eds.), Handbook of Disruptive Urban Technologies and Society (De Gruyter Contemporary Social Sciences Handbooks, Vol. 39). De Gruyter Academic Publishing, Berlin and Boston (to appear)
+  year: 2026
+  type: chapter
+
+- title: 'Reducing Hypertension Disparities: The Potential Role of Patient-Facing Large Language Models'
+  authors: Farah Allouch, Saad Hassan, Flor Alvarado, Syeda Mah Noor Asad, Dee Parekh, Renata Johnson, Marilyn Payne, David Gardner, Nicholas Mattei, Keith C Ferdinand
+  venue: American Journal of Preventive Cardiology (to appear)
+  year: 2026
+  type: journal
+
+- title: 'Heuristics and Models in Approval Voting: Results from Real-World Experiments'
+  authors: Jaelle Scheuerman, Jason L. Harman, Nicholas Mattei, Kristen Brent Venable
+  venue: Autonomous Agents and Multi Agent Systems (to appear)
+  year: 2026
+  type: journal
+
+- title: 'DeepVoting: Learning and Fine-Tuning Voting Rules with Canonical Embeddings'
+  authors: Leonardo Matone, Ben Abramowitz, Ben Armstrong, Avinash Balakrishnan, Nicholas Mattei
+  venue: Proceedings of the Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS) (to appear)
+  year: 2026
+  type: conference
+  venue_short: NeurIPS
+
+- title: 'Social Choice with Text: Collective Decision Making in the LLM Era'
+  authors: Umberto Grandi, Robert Bredereck, Théo Delemazure, Ulle Endriss, Jan Maly, Nick Mattei, Nicolas Maudet, Oliviero Nardi, Stanisław Szufa
+  venue: Proceedings of the 1st ACM AI Summit
+  year: 2026
+  type: conference
+
+- title: Co-Designing Organizational Justice Indicators for Algorithmic Systems
+  authors: Fujiko Robledo Yamamoto, Nicholas Mattei, Pradeep Ragothaman, Robin Burke, Amy Voida
+  venue: Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency, FAccT
+  year: 2026
+  type: conference
+  venue_short: FAccT
+
+- title: Optimizing Voting Rules for Social Welfare and Beyond
+  authors: Ben Armstrong, Hrishi Kabra, Nicholas Mattei
+  venue: Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems Demonstrations Track, AAMAS
+  year: 2026
+  type: conference
+  venue_short: AAMAS
+
+- title: 'Computational Social Choice: Research & Development'
+  authors: Dorothea Baumeister, Ratip Emin Berker, Niclas Boehmer, Sylvain Bouveret, Andreas Darmann, Piotr Faliszewski, Martin Lackner, Jerome Lang, Nicholas Mattei, Arianna Novaro
+  venue: Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems Blue Sky Ideas Track, AAMAS
+  year: 2026
+  type: conference
+  venue_short: AAMAS
+
+- title: 'Experience Report: Teaching Computer Science Ethics using Science Fiction Across Multiple Institutions and Course Types'
+  authors: Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Matthew Spradling, Alan Tsang, Nanette M. Veilleux
+  venue: Proceedings of the 57th ACM Technical Symposium on Computer Science Education, SIGCSE
+  year: 2026
+  type: conference
+  venue_short: SIGCSE
+
+- title: 'The Illusion of Fairness: Auditing Fairness Interventions with Audit Studies'
+  authors: Disa Sariola, Patrick Button, Aron Culotta, Nicholas Mattei
+  venue: Proceedings of the The 40th Annual AAAI Conference on Artificial Intelligence AAAI
+  year: 2026
+  type: conference
+
+- title: Fair Algorithms with Probing for Multi-Agent Multi-Armed Bandits
+  authors: Tianyi Xu, Jiaxin Liu, Nicholas Mattei, Zizhan Zheng
+  venue: Proceedings of the The 40th Annual AAAI Conference on Artificial Intelligence AAAI
+  year: 2026
+  type: conference
+
+- title: Societal Impact of Computational Social Choice (Dagstuhl Seminar 25401)
+  authors: Martin Lackner, Nicholas Mattei, Arianna Novaro, Clemens Puppe, Ratip Emin Berker (eds.)
+  venue: 'Dagstuhl Reports 15(9): 183-200'
+  year: 2025
+  type: edited volume
+
+- title: Proceedings of the Eighth AAAI/ACM Conference on AI, Ethics, and Society
+  authors: Emanuelle Burton, Nicholas Mattei, Andrés Páez (eds.)
+  venue: AAAI Press (AIES 2025, Madrid)
+  year: 2025
+  type: edited volume
+
+- title: Fast, Slow, and Metacognitive thinking in AI
+  authors: M Bergamaschi Ganapini, M Campbell, F Fabiano, L Horesh, J Lenchner, A Loreggia, N Mattei, F Rossi, B Srivastava, KB Venable
+  venue: Nature NPJ Artificial Intelligence 1 (1), 27
+  year: 2025
+  type: journal
+
+- title: Thinking Fast and Slow in Human and Machine Intelligence
+  authors: Francesco Fabiano, Marianna Bergamaschi Ganapini, Andrea Loreggia, Nicholas Mattei, Keerthiram Murugesan, Vishal Pallagani, Francesca Rossi, Biplav Srivastava, K. Brent Venable
+  venue: 'Communications of the ACM 68(8): 72-79'
+  year: 2025
+  type: journal
+
+- title: Flexible Representative Democracy
+  authors: Ben Abramowitz, Nicholas Mattei
+  venue: 'Social Choice and Welfare: 263-308'
+  year: 2025
+  type: journal
+
+- title: Dynamic fairness-aware recommendation through multi-agent social choice
+  authors: A Aird, P Farastu, J Sun, E Stefancová, C All, A Voida, N Mattei, R Burke
+  venue: ACM Transactions on Recommender Systems 3 (2), 21:1-35
+  year: 2025
+  type: journal
+  award: Women in RecSys Award (Amanda Aird)
+
+- title: AI Can Be a Powerful Social Innovation for Public Health if Community Engagement Is at the Core
+  authors: AN Bazzano, A Mantsios, N Mattei, MR Kosorok, A Culotta
+  venue: Journal of Medical Internet Research
+  year: 2025
+  type: journal
+
+- title: Investigating Political and Demographic Associations in Large Language Models through Moral Foundations Theory
+  authors: Nicole Smith-Vaniz, Harper Lyon, Lorraine Steigner, Ben Armstrong, Nicholas Mattei
+  venue: Proceedings of the 8th AAAI/ACM Conference on AI, Ethics, and Society, AIES
+  year: 2025
+  type: conference
+  venue_short: AIES
+
+- title: Using Text-Based Causal Inference to Disentangle Factors Influencing Online Review Ratings
+  authors: Linsen Li, Aron Culotta, Nicholas Mattei
+  venue: 'Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL 2025: 11259-11277'
+  year: 2025
+  type: conference
+  venue_short: NAACL
+
+- title: Integrating Individual and Group Fairness for Recommender Systems through Social Choice
+  authors: Amanda Aird, Elena Stefancova, Anas Buhayh, Cassidy All, Martin Homola, Nicholas Mattei, Robin Burke
+  venue: 'Proceedings of the Nineteenth ACM Conference on Recommender Systems, RecSys 2025: 177-186'
+  year: 2025
+  type: conference
+  venue_short: RecSys
+
+- title: Weighting Experts with Inaccurate Judges
+  authors: Ben Abramowitz, Omer Lev, and Nicholas Mattei
+  venue: 'Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2025: 14–22'
+  year: 2025
+  type: conference
+  venue_short: AAMAS
+
+- title: When Is It Acceptable to Break the Rules? Knowledge Representation of Moral Judgements Based on Empirical Data (Extended Abstract)
+  authors: 'Edmond Awad, Sydney Levine, Andrea Loreggia, Nicholas Mattei, Iyad Rahwan, Francesca Rossi, Kartik Talamadupula, Joshua B. Tenenbaum, Max Kleiman-Weiner:'
+  venue: 'Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2025: 3065-3067'
+  year: 2025
+  type: conference
+  venue_short: AAMAS
+
+- title: 'Algorithmic Decision Theory: 8th International Conference, ADT 2024'
+  authors: Rupert Freeman, Nicholas Mattei (eds.)
+  venue: Lecture Notes in Computer Science 15248, Springer
+  year: 2024
+  type: edited volume
+
+- title: Is a Picture Worth 51 Million Words? A Text Analysis of Public User Reviews of Schools
+  authors: D Harris, J Carroll, D Kim, N Mattei, O Carr
+  venue: National Center for Research on Education Access and Choice
+  year: 2024
+  type: journal
+
+- title: When Is It Acceptable to Break the Rules? Knowledge Representation of Moral Judgements Based on Empirical Data
+  authors: Edmond Awad, Max Kleiman-Weiner, Sydney Levine, Andrea Loreggia, Nicholas Mattei, Iyad Rahwan, Francesca Rossi, Kartik Talamadupula, and Josh Tenenbaum
+  venue: 'Autonomous Agents and Multi Agent Systems (JAAMAS) 38(2): 35'
+  year: 2024
+  type: journal
+  venue_short: JAAMAS
+
+- title: 'Impartial Peer Selection: An Annotated Reading List'
+  authors: O Lev, H Lyon, N Mattei
+  venue: ACM SIGecom Exchanges 22 (1), 113-117
+  year: 2024
+  type: journal
+
+- title: Use Open Source for Safer Generative AI Experiments
+  authors: Aron Culotta and Nicholas Mattei
+  venue: MIT Sloan Management Review, Vol. 65, 1–3, Winter
+  year: 2024
+  type: journal
+
+- title: Social Choice for Heterogeneous Fairness in Recommendation
+  authors: A Aird, E Štefancová, C All, A Voida, M Homola, N Mattei, R Burke
+  venue: Proceedings of the 18th ACM Conference on Recommender Systems, 1096-1101
+  year: 2024
+  type: conference
+
+- title: 'PACE: Participatory AI for Community Engagement'
+  authors: Hassan, Saad and Asad, Syeda Mah Noor and Eslami, Motahhare and Mattei, Nicholas and Culotta, Aron and Zimmerman, John
+  venue: Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (HCOMP)
+  year: 2024
+  type: conference
+  venue_short: HCOMP
+
+- title: 'Computing and Technology Ethics: Engaging through Science Fiction'
+  authors: Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek
+  venue: MIT Press
+  year: 2023
+  type: book
+
+- title: 'Proceedings of the Workshop on Ethics and Trust in Human-AI Collaboration: Socio-Technical Approaches (ETHAICS 2023) at IJCAI 2023'
+  authors: Marianna Bergamaschi Ganapini, Andrea Loreggia, Nicholas Mattei, Francesca Rossi, Biplav Srivastava, K. Brent Venable (eds.)
+  venue: CEUR Workshop Proceedings 3547
+  year: 2023
+  type: edited volume
+
+- title: 'PeerNomination: A Novel Peer Selection Algorithm to Handle Strategic and Noisy Assessments'
+  authors: Omer Lev, Nicholas Mattei, Paolo Turrini, Stanislav Zhydkov
+  venue: 'Artificial Intelligence, 316: 103843'
+  year: 2023
+  type: journal
+
+- title: Computing Fair Utilitarian Allocations of Indivisible Goods
+  authors: Haris Aziz, Xin Huang, Nicholas Mattei, Erel Segal-Halevi
+  venue: 'European Journal of Operations Research (EJOR), 307(2): 773–784'
+  year: 2023
+  type: journal
+  venue_short: EJOR
+
+- title: Pandering in a Flexible Representative Democracy
+  authors: Xiaolin Sun, Jacob Masur, Ben Abramowitz, Zizhan Zheng, and Nicholas Mattei
+  venue: Proc. of the 39th Conference on Uncertainty in Artificial Intelligence (UAI)
+  year: 2023
+  type: conference
+  venue_short: UAI
+
+- title: 'The Many Faces of Fairness: Exploring the Institutional Logics of Multistakeholder Microlending Recommendation'
+  authors: Jessie J. Smith, Anas Buhayh, Anushka Kathait, Pradeep Ragothaman, Nicholas Mattei, Robin Burke and Amy Voida
+  venue: Proc. of the 6th ACM Conference on Fairness, Accountability, and Transparency 2023 (ACM FAccT)
+  year: 2023
+  type: conference
+  venue_short: FAccT
+
+- title: Mitigating Skewed Bidding for Conference Paper Assignment
+  authors: Inbal Rozencweig, Reshef Meir, and Nicholas Mattei
+  venue: Proc. of the 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2023
+  type: conference
+  venue_short: AAMAS
+
+- title: 'Social Mechanism Design: A Low-Level Introduction'
+  authors: Ben Abramowitz and Nicholas Mattei
+  venue: Proc. of the 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2023
+  type: conference
+  venue_short: AAMAS
+
+- title: Does Delegating Votes Protect Against Pandering Candidates?
+  authors: Xiaolin Sun, Jacob Masur, Ben Abramowitz, Zizhan Zheng, and Nicholas Mattei
+  venue: Proc. of the 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2023
+  type: conference
+  venue_short: AAMAS
+
+- title: Teaching Computer Science Ethics Using Science Fiction
+  authors: Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek
+  venue: Proc. of the 54th ACM Technical Symposium on Computer Science Education (SIGCSE)
+  year: 2023
+  type: conference
+  venue_short: SIGCSE
+
+- title: Online Reviews Are Leading Indicators of Changes in K-12 School Attributes
+  authors: Linsen Li, Aron Culotta, Douglas M. Harris. and Nicholas Mattei
+  venue: Proc. of the 32nd ACM Web Conference (WWW)
+  year: 2023
+  type: conference
+  venue_short: WWW
+
+- title: Proceedings of Thinking Fast and Slow and Other Cognitive Theories in AI, AAAI 2022 Fall Symposium
+  authors: Marianna Bergamaschi Ganapini, Lior Horesh, Luís C. Lamb, Andrea Loreggia, Nicholas Mattei, Francesca Rossi, Biplav Srivastava, K. Brent Venable (eds.)
+  venue: CEUR Workshop Proceedings 3332
+  year: 2022
+  type: edited volume
+
+- title: Stable Matchings with Uncertain Pairwise Preferences
+  authors: Haris Aziz, Péter Biró, Tamas Fleiner, Serge Gaspers, Ronald de Haan, Nicholas Mattei, and Baharak Rastegari
+  venue: 'Theoretical Computer Science (TCS), 909: 1–11'
+  year: 2022
+  type: journal
+  venue_short: TCS
+
+- title: Combining Fast and Slow Thinking for Human-like and Efficient Decisions in Constrained Environments
+  authors: Marianna Bergamaschi Ganapini, Murray Campbell, Francesco Fabiano, Lior Horesh, Jonathan Lenchner, Andrea Loreggia, Nicholas Mattei, Francesca Rossi, Biplav Srivastava, Kristen Brent Venable
+  venue: Proc. of the 16th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy)
+  year: 2022
+  type: conference
+  venue_short: NeSy
+
+- title: Making Human-Like Moral Decisions
+  authors: Andrea Loreggia, Nicholas Mattei, Taher Rahgooy, Francesca Rossi, Biplav Srivastava, K. Brent Venable
+  venue: Proc. of the 5th ACM/AAAI Conference on AI, Ethics, and Society (AIES)
+  year: 2022
+  type: conference
+  venue_short: AIES
+
+- title: Group Fairness in Bandit Arm Selection with Biased Feedback
+  authors: Candice Schumann, Zhi Lang, Nicholas Mattei, and John P. Dickerson
+  venue: Proc. of the 21st International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2022
+  type: conference
+  venue_short: AAMAS
+
+- title: Behavioral Stable Marriage Problems
+  authors: Andrea Martin, Nicholas Mattei, K. Brent Venable
+  venue: 3rd International Conference on Distributed Artificial Intelligence (DAI)
+  year: 2022
+  type: conference
+  venue_short: DAI
+
+- title: Who Pays? Personalization, Bossiness and the Cost of Fairness
+  authors: Paresha Farastu, Nicholas Mattei, Robin Burke
+  venue: 5th FAccTRec Workshop on Responsible Recommendation at RecSys
+  year: 2022
+  type: workshop
+  venue_short: RecSys
+
+- title: Fair Classification with Audit Studies
+  authors: Batu El, Patrick Button, Nicholas Mattei, Michael Joyce, and Aron Culotta
+  venue: 2022 Scholarship & Social Justice Undergraduate Research Conference
+  year: 2022
+  type: workshop
+
+- title: A Performance-preserving Fairness Intervention for Adaptive Microfinance Recommendation
+  authors: Robin Burke, Pradeep Ragonathan, Nicholas Mattei, Brian Kimmig, Amy Voida, Nasim Sonboli, Anushka Kathait and Melissa Fabros
+  venue: Workshop on Online and Adaptive Recommender (OARS) at the 28th ACM SIGKDD Conference on Knolwdge Discovery and Data Mining (KDD)
+  year: 2022
+  type: workshop
+  venue_short: KDD
+
+- title: Reasoning with PCP-nets
+  authors: Cristina Cornelio, Umberto Grandi, Judy Goldsmith, Nicholas Mattei, Francesca Rossi, and K. Brent Venable
+  venue: 'Journal of Artificial Intelligence Research, Vol. 72: 1103–1161'
+  year: 2021
+  type: journal
+
+- title: Causal Inference for Event Pairs in Marked Point Processes
+  authors: Tian Gao, Debarun Bhattacharjya, Dharmashankar Subramanian, and Nicholas Mattei
+  venue: Proc. of the 35th Conference on Neural Information Processing Systems (NeurIPS)
+  year: 2021
+  type: conference
+  venue_short: NeurIPS
+
+- title: A Market-Based Bidding Scheme for Peer Review Paper Assignment
+  authors: Reshef Meir, Natan Kaminsky, Jérôme Lang, Julien Lesca, Nicholas Mattei
+  venue: Proc. of the 35th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2021
+  type: conference
+  venue_short: AAAI
+
+- title: Modeling Voters in Multi-Winner Approval Voting
+  authors: Jaelle Scheuerman, Jason L. Harman, Nicholas Mattei, Kristen Brent Venable
+  venue: Proc. of the 35th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2021
+  type: conference
+  venue_short: AAAI
+
+- title: Thinking Fast and Slow in AI
+  authors: Grady Booch, Francesco Fabiano, Lior Horesh, Kiran Kate, Jon Lenchner, Nick Linck, Andrea Loreggia, Keerthiram Murugesan, Nicholas Mattei, Francesca Rossi, Biplav Srivastava
+  venue: Proc. of the 35th AAAI Conference on Artificial Intelligence (AAAI 2021), Blue Sky Track
+  year: 2021
+  type: conference
+  venue_short: AAAI
+
+- title: 'A Picture Is Worth 51,930,274 Words: A Text Analysis of Public User Reviews of Schools'
+  authors: Douglas N. Harris, Debbie Kim, Nicholas Mattei, Srihari Korrapati, and Olivia Carr
+  venue: Association for Public Policy and Analysis Annual Conference (APPAM), 2022 American Educational Research Association Annual Conference (AERA)
+  year: 2021
+  type: workshop
+  venue_short: AERA
+
+- title: Peer Selection with Noisy Assessments
+  authors: Omer Lev, Nicholas Mattei, Paolo Turrini, Stanislav Zhydkov
+  venue: 3rd Games, Agents and Incentives Workshop @ AAMAS
+  year: 2021
+  type: workshop
+  venue_short: AAMAS
+
+- title: Behavioral Stable Marriage Problems
+  authors: Andrea Martin, Nicholas Mattei, K. Brent Venable
+  venue: 8th International Workshop on Computational Social Choice (COMSOC 2021) and 3rd Games, Agents and Incentives Workshop @ AAMAS
+  year: 2021
+  type: workshop
+  venue_short: COMSOC
+
+- title: Modeling and Reasoning with Preferences and Ethical Priorities in AI Systems
+  authors: Andrea Loreggia, Nicholas Mattei, Francesca Rossi, K. Brent Venable
+  venue: The Ethics of Artificial Intelligence, S. Matthew Liao Editor, Oxford University Press
+  year: 2020
+  type: chapter
+
+- title: Stable Matchings with Uncertain Linear Preferences
+  authors: Haris Aziz, Péter Biró, Serge Gaspers, Ronald de Haan, Nicholas Mattei, Baharak Rastegari
+  venue: 'Algorithmica, 82(5): 1410–1433'
+  year: 2020
+  type: journal
+
+- title: 'Artificial Intelligence Research for Fighting Political Polarisation: A Research Agenda'
+  authors: Andrea Loreggia, Nicholas Mattei, Stefano Quintarelli
+  venue: Proc. of the 1st International Forum on Digital Democracy (IFDaD)
+  year: 2020
+  type: conference
+  venue_short: IFDaD
+
+- title: 'Closing the Loop: Bringing Humans into Empirical Computational Social Choice and Preference Reasoning'
+  authors: Nicholas Mattei
+  venue: Proc. of the 29th International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2020
+  type: conference
+  award: IJCAI Early Career Spotlight
+  venue_short: IJCAI
+
+- title: 'PeerNomination: Relaxing Exactness for Increased Accuracy in Peer Selection'
+  authors: Nicholas Mattei, Paolo Turrini, Stanislav Zhydkov
+  venue: Proc. of the 29th International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2020
+  type: conference
+  venue_short: IJCAI
+
+- title: Cause-Effect Association between Events in Relational Event Datasets
+  authors: Debarun Bhattacharjya, Tian Gao, Nicholas Mattei, and Dharmashankar Subramanian
+  venue: Proc. of the 29th International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2020
+  type: conference
+  venue_short: IJCAI
+
+- title: Heuristics in Multi-Winner Approval Voting
+  authors: Jaelle Scheuerman, Jason L. Harman, Nicholas Mattei, Kristen Brent Venable
+  venue: Proc. of the 19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2020
+  type: conference
+  venue_short: AAMAS
+
+- title: We Need Fairness and Explainability in Algorithmic Hiring
+  authors: Candice Schumann, Jeffrey Foster, Nicholas Mattei, John Dickerson
+  venue: Proc. of the 19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2020) Blue Sky Challenge Track
+  year: 2020
+  type: conference
+  venue_short: AAMAS
+
+- title: A Multi-Channel Neural Graphical Event Model with Negative Evidence
+  authors: Tian Gao, Dharmashankar Subramanian, Karthikeyan Shanmugam, Debarun Bhattacharjya, Nicholas Mattei
+  venue: Proc. of the 34th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2020
+  type: conference
+  venue_short: AAAI
+
+- title: Event-Driven Continuous Time Bayesian Networks
+  authors: Debarun Bhattacharjya, Karthikeyan Shanmugam, Tian Gao, Nicholas Mattei, Kush Varshney, Dharmashankar Subramanian
+  venue: Proc. of the 34th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2020
+  type: conference
+  venue_short: AAAI
+
+- title: Infusing Knowledge into the Textual Entailment Task Using Graph Convolutional Networks
+  authors: Pavan Kapanipathi, Veronika Thost, Siva Sankalp Patel, Spencer Whitehead, Ibrahim Abdelaziz, Avinash Balakrishnan, Maria Chang, Kshitij P. Fadnis, R. Chulaka Gunasekara, Bassem Makni, Nicholas Mattei, Kartik Talamadupula, Achille Fokoue
+  venue: Proc. of the 34th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2020
+  type: conference
+  venue_short: AAAI
+
+- title: '“And The Winner Is...”: Dynamic Lotteries for Multi-group Fairness Aware Recommendation'
+  authors: Nasim Sonboli, Robin Burke, Nicholas Mattei, Farzad Eskandanian, Tian Gao
+  venue: 3rd FAccTRec Workshop on Responsible Recommendation at the Recommender Systems Conference (RecSys)
+  year: 2020
+  type: workshop
+  venue_short: RecSys
+
+- title: Algorithmic Fairness, Institutional Logics, and Social Choice
+  authors: Robin Burke, Amy Voida, Nicholas Mattei, Nasim Sonboli, Farzad Eskandanian
+  venue: IJCAI 2020 AI for Social Good Workshop (AI4SG)
+  year: 2020
+  type: workshop
+  venue_short: IJCAI
+
+- title: Teaching AI Agents Ethical Values Using Reinforcement Learning and Policy Orchestration
+  authors: Ritesh Noothigattu, Djallel Bouneffouf, Nicholas Mattei, Rachita Chandra, Piyush Madan, Kush R. Varshney, Murray Campbell, Moninder Singh, Francesca Rossi
+  venue: IBM Journal of Research & Development, 63(4/5)2:1 –2:9
+  year: 2019
+  type: journal
+
+- title: Using Multi-Armed Bandits to Learn Ethical Priorities for Online AI Systems
+  authors: Avinash Balakrishnan, Djallel Bouneffouf, Nicholas Mattei, and Francesca Rossi
+  venue: IBM Journal of Research & Development, 63(4/5)1:1 –1:13
+  year: 2019
+  type: journal
+
+- title: Strategyproof Peer Selection using Randomization, Partitioning, and Apportionment
+  authors: Haris Aziz, Omer Lev, Nicholas Mattei, Jeffrey S. Rosenschein, and Toby Walsh
+  venue: Artificial Intelligence, 275:295–309
+  year: 2019
+  type: journal
+
+- title: 'Flexible Representative Democracy: An Introduction with Binary Issues'
+  authors: Ben Abramowitz, Nicholas Mattei
+  venue: Proc. of the 28th International Joint Conference on Artificial Intelligence (IJCAI 2019), 3–10
+  year: 2019
+  type: conference
+  venue_short: IJCAI
+
+- title: Fair Online Allocation of Perishable Goods and its Application to Electric Vehicle Charging
+  authors: Enrico H. Gerding, Alvaro Perez-Diaz, Haris Aziz, Serge Gaspers, Antonia Marcu, Nicholas Mattei, Toby Walsh
+  venue: Proc. of the 28th International Joint Conference on Artificial Intelligence (IJCAI 2019), 5569–5575
+  year: 2019
+  type: conference
+  venue_short: IJCAI
+
+- title: Teaching AI Agents Ethical Values Using Reinforcement Learning and Policy Orchestration
+  authors: Ritesh Noothigattu, Djallel Bouneffouf, Nicholas Mattei, Rachita Chandra, Piyush Madan, Kush R. Varshney, Murray Campbell, Moninder Singh, Francesca Rossi
+  venue: Proc. of the 28th International Joint Conference on Artificial Intelligence (IJCAI 2019), 6377–6381
+  year: 2019
+  type: conference
+  venue_short: IJCAI
+
+- title: Metric Learning for Value Alignment
+  authors: Andrea Loreggia, Nicholas Mattei, Francesca Rossi, Kristen Brent Venable
+  venue: Best Papers of the 28th International Joint Conference on Artificial Intelligence (IJCAI 2019) Workshops
+  year: 2019
+  type: conference
+  award: Best Paper, AI Safety Workshop @ IJCAI 2019
+  venue_short: IJCAI
+
+- title: 'DeepAggregation: A New Approach for Aggregating Incomplete Ranked Lists using Multi-Layer Graph Embedding'
+  authors: Rohith D. Vallam, Ramasuri Narayanam, Srikanth Tamilselvam, Nicholas Mattei, Sudhanshu Singh, Shweta Garg, and Gyana Parija
+  venue: Proc. of the 18th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2019
+  type: conference
+  venue_short: AAMAS
+
+- title: Answering Science Exam Questions Using Query Rewriting with Background Knowledge
+  authors: Ryan Musa, Xiaoyan Wang, Achille Fokoue, Nicholas Mattei, Maria Chang, Pavan Kapanipathi, Bassem Makni, Kartik Talamadupula, and Michael Witbrock
+  venue: Proc. of the 1st Conference on Automated Knowledge Base Construction (AKBC)
+  year: 2019
+  type: conference
+  venue_short: AKBC
+
+- title: Building Ethically Bounded AI
+  authors: Francesca Rossi and Nicholas Mattei
+  venue: Proc. of the 33rd AAAI Conference on Artificial Intelligence (AAAI 2019), Blue Sky Track, nd
+  year: 2019
+  type: conference
+  award: 2nd Place, Blue Sky Best Paper Award
+  venue_short: AAAI
+
+- title: Incorporating Behavioral Constraints in Online AI Systems
+  authors: Avinash Balakrishnan, Djallel Bouneffouf, Nicholas Mattei, and Francesca Rossi
+  venue: Proc. of the 33rd AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2019
+  type: conference
+  venue_short: AAAI
+
+- title: Improving Natural Language Inference Using External Knowledge in the Science Questions Domain
+  authors: Xiaoyan Wang, Pavan Kapanipathi, Ryan Musa, Mo Yu, Kartik Talamadupula, Ibrahim Abdelaziz, Maria Chang, Achille Fokoue, Bassem Makni, Nicholas Mattei, and Michael Witbrock
+  venue: Proc. of the 33rd AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2019
+  type: conference
+  venue_short: AAAI
+
+- title: 'The Heart of the Matter: Patient Autonomy as a Model for the Wellbeing of Technology Users'
+  authors: Emanuelle Burton, Judy Goldsmith, Nicholas Mattei and Kristel Clayville
+  venue: Proc. of the 2nd ACM/AAAI Conference on AI, Ethics, and Society (AIES 2019), Feb
+  year: 2019
+  type: conference
+  venue_short: AIES
+
+- title: Heuristic Strategies in Uncertain Approval Voting Environments
+  authors: Jaelle Scheuerman, Jason L. Harman, Nicholas Mattei, Kristen Brent Venable
+  venue: Workshop on Behavioral EC at the 20th ACM Conference on Economics and Computation (EC)
+  year: 2019
+  type: workshop
+  venue_short: EC
+
+- title: 'Event-Driven Continuous Time Bayesian Networks: An Application in Modeling Progression out of Poverty through Integrated Social Services'
+  authors: Debarun Bhattacharjya, Karthikeyan Shanmugam, Tian Gao, Nicholas Mattei and Kush Varshney
+  venue: AI for Social Good Workshop at the 28th International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2019
+  type: workshop
+  venue_short: IJCAI
+
+- title: Value Alignment Via Tractable Preference Distance
+  authors: Andrea Loreggia, Nicholas Mattei, Francesca Rossi, K. Brent Venable
+  venue: Artificial Intelligence Safety and Security, R.V. Yampolskiy Editor, 2018, CRC Press
+  year: 2018
+  type: chapter
+
+- title: How to Teach Computer Ethics with Science Fiction
+  authors: Emanuelle Burton, Judy Goldsmith, Nicholas Mattei
+  venue: 'Communications of the ACM, 61(8): 54–64'
+  year: 2018
+  type: journal
+
+- title: Fixing a Balanced Knockout and Double Elimination Tournaments
+  authors: Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Paul Stursberg, and Toby Walsh
+  venue: Artificial Intelligence, 262:1–14
+  year: 2018
+  type: journal
+
+- title: An Interface for Annotating Science Questions
+  authors: Michael Boratko, Harshit Padigela, Divyendra Mikkilineni, Pritish Yuvraj, Rajarshi Das, Andrew McCallum, Maria Chang, Achille Fokoue, Pavan Kapanipathi, Nicholas Mattei, Ryan Musa, Kartik Talamadupula, and Michael Witbrock
+  venue: Proc. of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+  year: 2018
+  type: conference
+  venue_short: EMNLP
+
+- title: A Cost-Effective Framework for Preference Elicitation and Aggregation
+  authors: Zhibing Zhao, Haoming Li, Junming Wang, Jeffrey O. Kephart, Nicholas Mattei, Hui Su, Lirong Xia
+  venue: Proc. of the 34th Conference on Uncertainty in Artificial Intelligence (UAI)
+  year: 2018
+  type: conference
+  venue_short: UAI
+
+- title: Using Contextual Bandits with Behavioral Constraints for Constrained Online Movie Recommendation
+  authors: Avinash Balakrishnan, Djallel Bouneffouf, Nicholas Mattei, Francesca Rossi
+  venue: Proc. of the 27th International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2018
+  type: conference
+  venue_short: IJCAI
+
+- title: On the Distance Between CP-Nets
+  authors: Andrea Loreggia, Nicholas Mattei, Francesca Rossi, K. Brent Venable
+  venue: Proc. of the 17th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2018
+  type: conference
+  venue_short: AAMAS
+
+- title: Preferences and Ethical Principles in Decision Making
+  authors: Andrea Loreggia, Nicholas Mattei, Francesca Rossi, K. Brent Venable
+  venue: Proc. of the AAAI/ACM Conference on AI, Ethics and Society (AIES)
+  year: 2018
+  type: conference
+  venue_short: AIES
+
+- title: Fairness in Deceased Organ Matching
+  authors: Nicholas Mattei, Abdallah Saffidine and Toby Walsh
+  venue: Proc. of the 1st ACM/AAAI Conference on AI, Ethics, and Society (AIES)
+  year: 2018
+  type: conference
+  venue_short: AIES
+
+- title: 'The Conference Paper Assignment Problem: Using Order Weighted Averages to Assign Indivisible Goods'
+  authors: Jing Wu Lian, Nicholas Mattei, Renee Noble, Toby Walsh
+  venue: Proc. of the 32nd AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2018
+  type: conference
+  venue_short: AAAI
+
+- title: A Systematic Classification of Knowledge, Reasoning, and Context within the ARC Dataset
+  authors: Michael Boratko, Harshit Padigela, Divyendra Mikkilineni, Pritish Yuvraj, Rajarshi Das, Andrew McCallum, Maria Chang, Achille Fokoue-Nkoutche, Pavan Kapanipathi, Nicholas Mattei, Ryan Musa, Kartik Talamadupula, and Michael Witbrock
+  venue: Machine Reading for Question Answering (MRQA 2018) Workshop at the 56th Annual Meeting of the Association for Computational Linguistics (ACL)
+  year: 2018
+  type: workshop
+  award: Best Paper
+  venue_short: ACL
+
+- title: An Axiomatic and Empirical Analysis of Mechanisms for Online Organ Matching
+  authors: Nicholas Mattei, Abdallah Saffidine and Toby Walsh
+  venue: 7th International Workshop on Computational Social Choice (COMSOC)
+  year: 2018
+  type: workshop
+  venue_short: COMSOC
+
+- title: 'A www.PrefLib.org Retrospective: Lessons Learned and New Directions'
+  authors: Nicholas Mattei and Toby Walsh
+  venue: Trends in Computational Social Choice, Ulle Endriss Editor, 2017, AI Access Foundation
+  year: 2017
+  type: chapter
+
+- title: Uniform Random Generation and Dominance Testing for CP-nets
+  authors: Thomas E. Allen, Judy Goldsmith, Hayden Elizabeth Justice, Nicholas Mattei, and Kayla Raines
+  venue: 'Journal of Artificial Intelligence Research (JAIR), Volume 59: 771–813'
+  year: 2017
+  type: journal
+  venue_short: JAIR
+
+- title: Ethical Considerations in Artificial Intelligence Courses
+  authors: Emanuelle Burton, Judy Goldsmith, Sven Koenig, Benjamin Kuipers, Nicholas Mattei, and Toby Walsh
+  venue: 'AI Magazine, Volume 38, Number 2: 22-34'
+  year: 2017
+  type: journal
+
+- title: Mechanisms for Online Organ Matching
+  authors: Nicholas Mattei, Abdallah Saffidine, Toby Walsh
+  venue: Proc. of the 26th International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2017
+  type: conference
+  venue_short: IJCAI
+
+- title: Stable Matching with Uncertain Pairwise Preferences
+  authors: Haris Aziz, Péter Biró, Tamas Fleiner, Serge Gaspers, Ronald de Haan, Nicholas Mattei, Baharak Rastegari
+  venue: Proc. of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2017) 4th International Workshop on Matching Under Preferences (MATCHUP)
+  year: 2017
+  type: conference
+  venue_short: MATCHUP
+
+- title: A Study of Proxies for Shapley Allocations of Transport Costs
+  authors: Haris Aziz, Casey Cahan, Charles Gretton, Phillip Kilby, Nicholas Mattei, and Toby Walsh
+  venue: 'Journal of Artificial Intelligence Research (JAIR), Volume 56: 573–611'
+  year: 2016
+  type: journal
+  venue_short: JAIR
+
+- title: Analysis of Fixed and Biased Asset Allocation Rebalancing Strategies
+  authors: Michael D. Mattei and Nicholas Mattei
+  venue: 'Managerial Finance, Volume 42, Number 1: 42–50'
+  year: 2016
+  type: journal
+
+- title: Stable Matching with Uncertain Linear Preferences
+  authors: Haris Aziz, Péter Biró, Serge Gaspers, Ronald de Haan, Nicholas Mattei, Baharak Rastegari
+  venue: Proc. of the 9th International Symposium on Algorithmic Game Theory (SAGT)
+  year: 2016
+  type: conference
+  venue_short: SAGT
+
+- title: Interdependent Scheduling Games
+  authors: Andres Abeliuk, Haris Aziz, Gerardo Berbeglia, Serge Gaspers, Petr Kalina, Simon Mackenzie, Nicholas Mattei, Paul Stursberg, Pascal Van Hentenryck and Toby Walsh
+  venue: Proc. of the 25th International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2016
+  type: conference
+  venue_short: IJCAI
+
+- title: Egalitarianism of Random Assignment Mechanisms
+  authors: Haris Aziz, Jiashu Chen, Aris Filos- Ratsikas, Simon Mackenzie, and Nicholas Mattei
+  venue: Proc. of the 15th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2016
+  type: conference
+  venue_short: AAMAS
+
+- title: 'Strategyproof Peer Selection: Mechanisms, Analyses, and Experiments'
+  authors: Haris Aziz, Omer Lev, Nicholas Mattei, Jeffery S. Rosenschein, and Toby Walsh
+  venue: Proc. of the 30th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2016
+  type: conference
+  venue_short: AAAI
+
+- title: Generating CP-nets Uniformly at Random
+  authors: Thomas E. Allen, Judy Goldsmith, Hayden Elizabeth Justice, Nicholas Mattei, and Kayla Raines
+  venue: Proc. of the 30th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2016
+  type: conference
+  venue_short: AAAI
+
+- title: Using The Machine Stop for Teaching Ethics in Artificial Intelligence and Computer Science
+  authors: Emanuelle Burton, Judy Goldsmith, and Nicholas Mattei
+  venue: 2nd International Workshop on AI and Ethics, AAAI 2016 Workshop Program
+  year: 2016
+  type: workshop
+  venue_short: AAAI
+
+- title: On the Complexity of Bribery and Manipulation in Tournaments with Uncertain Information
+  authors: Nicholas Mattei, Judy Goldsmith, Andrew Klapper, and Martin Mundhenk
+  venue: 'Journal of Applied Logic, Volume 13, Number 4: 557–581'
+  year: 2015
+  type: journal
+
+- title: 'Beyond Theory and Data in Preference Modeling: Bringing Humans into the Loop'
+  authors: Thomas E. Allen, Muye Chen, Judy Goldsmith, Nicholas Mattei, Anna Popova, Michel Regenwetter, Francesca Rossi and Christopher Zwilling
+  venue: Proc. of the 4th International Conference on Algorithmic Decision Theory (ADT)
+  year: 2015
+  type: conference
+  venue_short: ADT
+
+- title: Equilibria Under the Probabilistic Serial Rule
+  authors: Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh
+  venue: Proc. of the 24th International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2015
+  type: conference
+  venue_short: IJCAI
+
+- title: Strategic Aspects of the Probabilistic Serial Rule for the Allocation of Goods
+  authors: Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh
+  venue: Proc. of the 14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2015) 3rd International Workshop on Matching Under Preferences (MATCHUP)
+  year: 2015
+  type: conference
+  venue_short: MATCHUP
+
+- title: Reasoning with PCP-nets in a Multi-Agent Context
+  authors: Cristina Cornelio, Umberto Grandi, Judy Goldsmith, Nicholas Mattei, Francesca Rossi, and K. Brent Venable
+  venue: Proc. of the 14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2015
+  type: conference
+  venue_short: AAMAS
+
+- title: Computational Aspects of Multi-Winner Approval Voting
+  authors: Haris Aziz, Serge Gaspers, Joachim Gudmundsson, Simon Mackenzie, Nicholas Mattei, and Toby Walsh
+  venue: Proc. of the 14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2015
+  type: conference
+  venue_short: AAMAS
+
+- title: Teaching AI Ethics Using Science Fiction
+  authors: Emanuelle Burton, Judy Goldsmith and Nicholas Mattei
+  venue: 1st International Workshop on AI and Ethics, AAAI 2015 Workshop Program
+  year: 2015
+  type: workshop
+  venue_short: AAAI
+
+- title: Science Fiction as an Introduction to AI Research
+  authors: Judy Goldsmith and Nicholas Mattei
+  venue: ACM Transactions on Computer Science Education (ACM:TOCE), Volume 14, Number 1:1–14
+  year: 2014
+  type: journal
+  venue_short: ACM:TOCE
+
+- title: The Complexity of Probabilistic Lobbying
+  authors: Daniel Binkele-Raible, Gábor Erdélyi, Henning Fernau, Judy Goldsmith, Nicholas Mattei, and Jörg Rothe
+  venue: Discrete Optimization, Volume 11, Number 1:1–21
+  year: 2014
+  type: journal
+
+- title: How Hard Is It to Control an Election by Breaking Ties?
+  authors: Nicholas Mattei, Nina Narodytska, and Toby Walsh
+  venue: Proc. of the 21st European Conference on Artificial Intelligence (ECAI)
+  year: 2014
+  type: conference
+  venue_short: ECAI
+
+- title: Voting with Rank Dependent Scoring Rules
+  authors: Judy Goldsmith, Jerome Lang, Nicholas Mattei, and Patrice Perny
+  venue: Proc. of the 28th AAAI Conference on Artificial Intelligence (AAAI 2014) 5th International Workshop on Computational Social Choice (COMSOC-
+  year: 2014
+  type: conference
+  venue_short: AAAI
+
+- title: Fixing a Balanced Knockout Tournament
+  authors: Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Paul Stursberg, and Toby Walsh
+  venue: Proc. of the 28th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2014
+  type: conference
+  venue_short: AAAI
+
+- title: Lessons Learned from Development of a Software Tool to Support Academic Advising
+  authors: Nicholas Mattei, Thomas Dodson, Joshua T. Guerin, Judy Goldsmith, and Joan M. Mazur
+  venue: Proc. of the American Society for Engineering Education Zone 1 Conference (ASEE)
+  year: 2014
+  type: conference
+  award: Best Paper Finalist
+  venue_short: ASEE
+
+- title: Voting with CP-nets using a Probabilistic Preference Structure
+  authors: Cristina Cornelio, Umberto Grandi, Judy Goldsmith, Nicholas Mattei, Francesca Rossi, and K. Brent Venable
+  venue: 5th International Workshop on Computational Social Choice (COMSOC)
+  year: 2014
+  type: workshop
+  venue_short: COMSOC
+
+- title: Bribery in Voting with CP-nets
+  authors: Nicholas Mattei, Maria Silvia Pini, Francesca Rossi, and K. Brent Venable
+  venue: Annals of Mathematics and Artificial Intelligence, Volume 68, Number 1–3:5–30
+  year: 2013
+  type: journal
+
+- title: A Behavioral Perspective on Social Choice
+  authors: Anna Popova, Michel Regenwetter, and Nicholas Mattei
+  venue: Annals of Mathematics and Artificial Intelligence, Volume 68, Number 1–3:135–160
+  year: 2013
+  type: journal
+
+- title: An English-Language Argumentation Interface for Explanation Generation with Markov Decision Processes in the Domain of Academic Advising
+  authors: Thomas Dodson, Nicholas Mattei, Joshua T. Guerin, and Judy Goldsmith
+  venue: ACM Transactions on Intelligent Interactive Systems (ACM:TiiS), Volume 3, Number 3:1–18
+  year: 2013
+  type: journal
+  venue_short: ACM:TiiS
+
+- title: Updates and Uncertainty in CP-Nets
+  authors: Cristina Cornelio, Judy Goldsmith, Nicholas Mattei, Francesca Rossi, and K. Brent Venable
+  venue: Proc. of the 26th Australasian Joint Conference on Artificial Intelligence (AUAI)
+  year: 2013
+  type: conference
+  award: Best Paper Finalist
+  venue_short: AUAI
+
+- title: 'PrefLib.org: A Library for Preferences'
+  authors: Nicholas Mattei and Toby Walsh
+  venue: Proc. of the 3rd International Conference on Algorithmic Decision Theory (ADT)
+  year: 2013
+  type: conference
+  venue_short: ADT
+
+- title: 'Ties Matter: Complexity of Manipulation when Tie-breaking with a Random Vote'
+  authors: Haris Aziz, Serge Gaspers, Nicholas Mattei, Nina Narodytska, and Toby Walsh
+  venue: Proc. of the 27th AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2013
+  type: conference
+  venue_short: AAAI
+
+- title: On the Complexity of Bribery and Manipulation in Tournaments with Uncertain Information
+  authors: Nicholas Mattei, Judy Goldsmith, and Andrew Klapper
+  venue: Proc. of the 25th International Florida Artificial Intelligence Research Society Conference (FLAIRS)
+  year: 2012
+  type: conference
+  award: Best Student Paper
+  venue_short: FLAIRS
+
+- title: Bribery in Voting Over Combinatorial Domains Is Easy
+  authors: Nicholas Mattei, Maria Silvia Pini, Francesca Rossi, K. Brent Venable
+  venue: Proc. of the 11th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+  year: 2012
+  type: conference
+  venue_short: AAMAS
+
+- title: An Empirical Study of Voting Rules and Manipulation with Large Datasets
+  authors: Nicholas Mattei, James Forshee, and Judy Goldsmith
+  venue: 4th International Workshop on Computational Social Choice (COMSOC)
+  year: 2012
+  type: workshop
+  venue_short: COMSOC
+
+- title: The Academic Advising Planning Domain
+  authors: Joshua Guerin, Josiah Hanna, Libby Knouse, Nicholas Mattei, and Judy Goldsmith
+  venue: '22nd International Conference on Automated Planning and Scheduling: Planning Competition Workshop (ICAPS)'
+  year: 2012
+  type: workshop
+  venue_short: ICAPS
+
+- title: Empirical Evaluation of Voting Rules with Strictly Ordered Preference Data
+  authors: Nicholas Mattei
+  venue: Proc. of the 2nd International Conference on Algorithmic Decision Theory (ADT)
+  year: 2011
+  type: conference
+  venue_short: ADT
+
+- title: A Natural Language Argumentation Interface for Explanation Generation in Markov Decision Processes
+  authors: Thomas Dodson, Nicholas Mattei, and Judy Goldsmith
+  venue: Proc. of the 2nd International Conference on Algorithmic Decision Theory (ADT)
+  year: 2011
+  type: conference
+  venue_short: ADT
+
+- title: Science Fiction as an Introduction to AI Research
+  authors: Judy Goldsmith and Nicholas Mattei
+  venue: Proc. of the 2nd Symposium on Educational Advances in Artificial Intelligence (EAAI)
+  year: 2011
+  type: conference
+  venue_short: EAAI
+
+- title: 'Decision Making Under Uncertainty: Social Choice and Manipulation'
+  authors: Nicholas Mattei
+  venue: Proc. of the 22nd International Joint Conference on Artificial Intelligence (IJCAI)
+  year: 2011
+  type: conference
+  venue_short: IJCAI
+
+- title: 'Nanosatellite Payload Software: Managing Full Space Science Missions'
+  authors: Shakib Ghassemieh, Nicholas Mattei, Gregory Defouw, Michael J. McIntyre, and Millan Diaz-Aguado
+  venue: Small Satellite Systems and Services Symposium
+  year: 2010
+  type: workshop
+
+- title: 'COTSAT-1: Cost Optimization and Technology Enablement on a Small Spacecraft Platform'
+  authors: Michael C. Lindsay, Peter Klupar, Stevan Spremo, Aaron Swank, David Bui, Evan Jackson, Nicholas Mattei, David Mayer, Emmett Quigley, Zion Young
+  venue: 'NATO Research and Technology Organization Conference: RTO-MP-AVT-171 Multifunctional Structures and System Technologies for Small Spacecraft (2010). European Space Agency (ESA) Small Satellite Systems and Services Symposium (4S)'
+  year: 2010
+  type: workshop
+  venue_short: ESA
+
+- title: The Complexity of Probabilistic Lobbying
+  authors: Gábor Erdélyi, Henning Fernau, Judy Goldsmith, Nicholas Mattei, Daniel Raible and Jörg Rothe
+  venue: Proc. of the 1st International Conference on Algorithmic Decision Theory (ADT)
+  year: 2009
+  type: conference
+  venue_short: ADT
+
+- title: 'COTSAT: Small Spacecraft Cost Optimization for Government and Commercial Use'
+  authors: Aaron Swank, Nicholas Mattei, David Bui, Stevan Spremo, Peter Klupar, Christopher Dallara, Shakib Ghassemieh, James Hanratty, Evan Jackson, Kuok Ling, Michael Lindsay, David Mayer, Emmett Quigley, Zion Young
+  venue: Proc. of the American Institute of Aeronautics and Astronautics SPACE 2009 Conference and Exposition (AIAA SPACE)
+  year: 2009
+  type: conference
+  venue_short: SPACE
+
+- title: 'Low Cost Rapid Response Spacecraft, (LCRSS): A Case Study in Small Satellite Cost Optimization for Government and Commercial Use'
+  authors: Jesse Bregman, Christopher Dallara, Shakib Ghassemieh, James Hanratty, Evan Jackson, Chris Kitts, Pete Klupar, Michael Lindsay, Ignacio Mas, Nicholas Mattei, David Mayer, Emmett Quigley, Mike Rasay, Aaron Swank, Adam Talcott, Jeroen Vandersteen, Zion Young
+  venue: Proc. of the American Institute of Aeronautics and Astronautics SPACE 2008 Conference and Exposition (AIAA SPACE 2008), Aug
+  year: 2008
+  type: conference
+  venue_short: SPACE

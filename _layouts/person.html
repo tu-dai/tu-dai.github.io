@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{%- assign person = page -%}
+<div class="wrap page person-page">
+  <div class="person-head">
+    {%- if person.photo %}
+    <img class="avatar avatar-large" src="{{ '/assets/img/people/' | append: person.photo | relative_url }}" alt="">
+    {%- endif %}
+    <div>
+      <h1 class="page-title">{{ person.name }}</h1>
+      <p class="person-line">{{ person.position | default: person.role }}</p>
+      <p class="person-links">
+        {%- if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+        {%- if person.website %}<a href="{{ person.website }}">Website</a>{% endif %}
+        {%- if person.scholar %}<a href="{{ person.scholar }}">Scholar</a>{% endif %}
+        {%- if person.github %}<a href="{{ person.github }}">GitHub</a>{% endif %}
+      </p>
+    </div>
+  </div>
+
+  <div class="prose">{{ content }}</div>
+
+  {%- comment -%} Their papers: any publication whose authors include one of their spellings {%- endcomment -%}
+  {%- if person.pub_names -%}
+    {%- assign spellings = person.pub_names -%}
+  {%- else -%}
+    {%- assign spellings = person.name | split: "|" -%}
+  {%- endif -%}
+  {%- capture theirs -%}
+    {%- for pub in site.data.publications -%}
+      {%- assign hit = false -%}
+      {%- for spelling in spellings -%}
+        {%- if pub.authors contains spelling %}{% assign hit = true %}{% endif -%}
+      {%- endfor -%}
+      {%- if hit %}{% include publication.html %}{% endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- assign theirs_stripped = theirs | strip -%}
+  {%- if theirs_stripped != "" and person.show_publications != false %}
+  <h2 class="section-title">Publications</h2>
+  <ol class="pubs">{{ theirs }}</ol>
+  {%- endif %}
+</div>

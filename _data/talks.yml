@@ -1,0 +1,250 @@
+# Talks, newest first. Copy an entry to add one.
+# when: the date as you want it shown, e.g. "April 2027"
+# talk: title and event (markdown allowed)
+# link: optional URL for slides, recording, or event page
+
+- when: April 2027
+  talk: Leveraging Data and Artificial Intelligence for Human Centered Computational Reasoning and Choice - Center for Humanities and Technology (CHaT) at the University of Cincinnati
+
+- when: November 2026
+  talk: Civic and Community Engaged AI in New Orleans - Panel with Saad Hassan and Aron Culotta - New Orleans Arts & Ideas Festival (NOAI)
+  link: https://noai.philosophers.group/about/
+
+- when: October 2026
+  talk: AI and Surveillance Forum – Tulane Center for Public Service and Civic Engagement Coalition
+
+- when: October 2026
+  talk: Participatory AI for Community Engagement - International Association for Research on Service-Learning and Community Engagement Annual Conference
+  link: https://www.iarslce.org/2026conference
+
+- when: October 2026
+  talk: Artificial Intelligence and the Student Experience - AAU Senior Student Affairs Officers Annual Meeting
+
+- when: October 2026
+  talk: What IT Professionals Need to Know About AI - Tulane IT Services General Meeting
+
+- when: August 2026
+  talk: What is AI? - Strategic Leaders International Course (SLIC) - United States Navy
+
+- when: July 2026
+  talk: AI Expert Talk for K-12 Teachers - Tulane University STEM Summer Program
+
+- when: June 2026
+  talk: University of Bergen Summer Seminar - AI and Education - Bergen, Norway
+
+- when: June 2026
+  talk: AI Research at Bergen - Equinor AI Invited Talk - Bergen, Norway
+
+- when: June 2026
+  talk: Talking to the Media About AI - Bergen AI Institute Short Course - Bergen, Norway
+
+- when: June 2026
+  talk: AI and Community Engagement at Tulane - Nordic AI Institute - Bergen, Norway
+
+- when: May 2026
+  talk: 'AI Across America: Baton Rouge - Panel on Louisiana AI Infrastructure & Resource Needs'
+  link: https://aiacrossamerica.com/batonrouge
+
+- when: May 2026
+  talk: AI at Tulane - Provost Academic Affairs Council Meeting
+
+- when: April 2026
+  talk: AI and Community Engaged Research at Tulane - Tulane Research, Innovation, & Creativity Summit (TRICS)
+  link: https://event.fourwaves.com/trics2026
+
+- when: March 2026
+  talk: 'Tulane Bookfest Panel - Inventing Connection: Trust, Access & the Future of the Internet with Sir Tim Berners-Lee and Lady Rosemary Leith Berners-Lee; Moderated by: Nicholas Mattei'
+  link: https://bookfest.tulane.edu/schedule/inventing-connection-trust-access-future-internet-sir-tim-berners-lee-lady-rosemary-leith
+
+- when: March 2026
+  talk: 'Invited Panel - Global Centre for Rehumanising Democracy (GCRD) in collaboration with the United Nations Institute for Training and Research (UNITAR) on Rehumanizing Democracy in the Age of Algorithms: Social Justice, AI, and Democractic Trust'
+  link: https://gcrd.org.uk/events/rehumanising-democracy-in-the-age-of-algorithms
+
+- when: January 2026
+  talk: AI Best Uses For Startups - Tulane Innovation Institute Lunch and Learn
+
+- when: January 2026
+  talk: The Silicon and The Soil - Can AI Save the Planet it Consumes - Tulane Climate Action Day SSE Panel – Organizer and Participant
+
+- when: December 2025
+  talk: UNSW Algorithmic Decision Theory Seminar - Deep Voting, Creating Novel Voting Rules
+
+- when: December 2025
+  talk: Keynote, AJCAI Australasian Joint Conference on Artificial Intelligence  - Leveraging Data and Artificial Intelligence for Human Centered Computational Reasoning and Choice
+  link: https://ajcai2025.org/speakers.html
+
+- when: December 2025
+  talk: Invited Industry Panel – AI Safety, Research Funding, AJCAI Australasian Joint Conference on Artificial Intelligence
+  link: https://ajcai2025.org/industry.html
+
+- when: October 2025
+  talk: 'Tulane Career Development Club Seminar - AI, Ethics, and Society: What is AI and What Are the Impacts on Our Society?'
+
+- when: October 2025
+  talk: 'Leveraging Data (PrefLib) and Computational Social Choice for Human Centered Artificial Intelligence – Pragmatics of Multiwinner Voting: Algorithms and Preference Data Analysis (PRAGMA Fest) Invited Talk. Krakow, Poland'
+  link: https://home.agh.edu.pl/~pragma/pragmafest/
+
+- when: October 2025
+  talk: Google aiEDU Podcast Interview - This Professor Expects His Students to Use AI
+  link: https://www.youtube.com/watch?v=9BuY1cTvGSI
+
+- when: October 2025
+  talk: Invited Talk - Finley Chair Webinar at University of Tennessee Chattanooga  - Leveraging Data and Artificial Intelligence for Human Centered Computational Reasoning and Choice
+  link: https://lp.constantcontactpages.com/ev/reg/zma6mkm/lp/1d5cf64a-8767-4ef7-823b-a48d65ab909d?source_id=f119c6d0-239b-4912-b70a-84f668248643&source_type=em&c=gVd3ffyqSt5u7lJAPZguZ3N1rh5gJ9OYJrL-SILSboMR589Z4vLWqw==
+
+- when: '2025'
+  talk: Introduction to Community Engaged AI at Tulane – Invited Talk – Naval Research Labratory, Stennis Research Center, August 2025
+
+- when: May 2025
+  talk: 'AI On Trial: Exploring Tools, Risks, and Responsibilities in Trial Consulting - Invited Speaker'
+  link: https://www.astcweb.org/schedule/astc-2025-annual-conference-1
+
+- when: April 2025
+  talk: 'COMSOC Online Video Seminar Rump Session - DeepVoting: Learning Impossible Voting Rules'
+  link: https://www.youtube.com/watch?v=fIjcklyEukM
+
+- when: April 2025
+  talk: 'Liquor and Lectures - Computing and Technology Ethics: AI, Bias, Fairness, Optimization and so Much More! - New Orleans Common House Invited Speaker'
+
+- when: April 2025
+  talk: 'Faith, Ethics, and the Future: Navigating AI’s Impact on Work and Human Intelligence - Invited Speaker - New Orleans Noter Dame Hesburgh Lecture'
+
+- when: March 2025
+  talk: 'The Intelligence Revolution: How AI and Big Data are Changing the World - Steven Johnson and Nicholas Mattei, Moderated by: Robin Forman. New Orleans Book Festival'
+  link: https://www.youtube.com/watch?v=8_qL2JuVItA
+
+- when: February 2025
+  talk: Online Social Choice and Welfare Society - Invited Talk - Leveraging Data and Artificial Intelligence for Human Centered Computational Reasoning and Choice
+  link: https://sites.google.com/view/2021onlinescwseminars/past-seminars/2025
+
+- when: '2024'
+  talk: Leveraging Data and Artificial Intelligence for Human Centered Computational Reasoning and Choice - TOC4Fairness Seminar
+  link: https://toc4fairness.org/toc4fairness-seminar-nicholas-mattei/
+
+- when: '2024'
+  talk: 'AI Fest Presents: Leveraging Data and AI for Human Centered Computational Reasoning - Arthur AI Fest'
+  link: https://www.youtube.com/playlist?list=PLwqopCRUSpX1NMPYkzOix5vX77djtWE90
+
+- when: Spring 2024
+  talk: Leveraging Data and Artificial Intelligence for Human Centered Computational Reasoning and Choice - CU Boulder CS Seminar
+
+- when: June 2023
+  talk: Mechanisms and Algorithms for Improving Peer Selection – Summer School on Algorithmic Game Theory, City University of Hong Kong ()
+  link: https://www.cs.cityu.edu.hk/~gtsc/
+
+- when: '2023'
+  talk: Leveraging Data and Artificial Intelligence for Human Centered Computational Reasoning and Choice – University of Brescia, Italy (June 2023). – UNSW.ai Institute Invited Talk (March 2023)
+  link: https://www.eventbrite.com.au/e/unswai-invited-talk-with-aprof-nicholas-mattei-registration-588718592157
+
+- when: May 2023
+  talk: 'Invited Panelist: Generative AI Innovation Ask Me Anything – Carnegie Mellon University (Event Website and Recording) ()'
+  link: https://sites.google.com/view/generativeaiinnovation/
+
+- when: April 2023
+  talk: Building Ethically Bounded AI with Metacognition – University of California at Santa Barbra Applied Math and Data Science Seminar (UCSB DS) ()
+
+- when: March 2023
+  talk: 'Social Mechanism Design: A Low Level Introduction – UNSW Sydney Algorithmic Decision Theory Group Seminar ()'
+
+- when: '2023'
+  talk: 'Tutorial: Teaching Computer Science Ethics Using Science Fiction – Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI 2023) (Feb 2023). – 54th Technical Symposium of the ACM Special Interest Group on Computer Science Education Technical (SIGCSE 2023) (March 2023)'
+
+- when: January 2023
+  talk: 'Computing and Technology Ethics: AI, Bias, Fairness, Optimization and so Much More! – 2023 Grid Science Winter School & Conference, sponsored by the Center for Nonlinear Studies (CNLS) at Los Alamos National Laboratory (LANL) ()'
+
+- when: June 2022
+  talk: Algorithmic Fairness, Institutional Logics, and Social Choice – Algorithm Futures Policy Lab, 4th Symposium on the Social Responsibility of Algorithms 2022 () (Video Link)
+  link: https://www.youtube.com/watch?v=6q4-C1GWSE4&ab_channel=AlgorithmicFuturesPolicyLab
+
+- when: '2022'
+  talk: 'Bias, Fairness, and Ethics in Recommendation Systems – Tulane Tech Day, Tulane University, New Orlenas, LA (April 13, 2022). (Video Link.) – Schloss Dagstuhl Seminar 22271: Algorithms for Participatory Democracy, Wadern, Germany (July 6th, 2022)'
+  link: https://tulane.yuja.com/V/Video?v=4938633&node=16186850&a=1348536425&autoplay=1
+
+- when: September 2021
+  talk: 'Closing the Loop: Bringing Humans into Empirical Computational Social Choice and Preference Reasoning – Washington University in Saint Louis Computer Science Department Colloquia, Saint Louis, MO, USA ()'
+
+- when: July 2021
+  talk: 'Behavioral Stable Marriage Problems – Schloss Dagstuhl Seminar 21301: Matching Under Preferences: Theory and Practice, Wadern, Germany ()'
+
+- when: July 2021
+  talk: Modeling Voters in Multi-Winner Approval Voting – COMSOC Video Seminar Series (), (Video Link)
+  link: https://sites.google.com/view/comsoc-seminar/
+
+- when: '2021'
+  talk: Ethics in AI and Technology. – AAAI Spring Symposium on Implementing AI Ethics, Online (March 23, 2021). – NIST AI Assurance Planning Team, Online (Nov. 19, 2020). – Tulane Engineering Forum, Online (July 31, 2020). – Collaborative Assistants for Society (CASY 2020) Conference, University of South Carolina, Online (October 16, 2020)
+  link: https://aihub.org/2021/04/23/aaai-2021-spring-symposium-on-implementing-ai-ethics/
+
+- when: May 2020
+  talk: 'Doctoral Consortium Panel: Early Career Advice. – AAMAS 2020 Doctoral Consortium, Auckland, New Zealand (Online, Zoom) ()'
+
+- when: '2019'
+  talk: AI, Ethics, and Information in the 21st Century. – Cookies and Code (Tulane CS Club), New Orleans, LA, USA (Nov. 12, 2019). – Invited Panelist, Gordon Gamm Symposium - The Implications of Artificial Intelligence For A Just Society, Tulane University Law School, New Orleans, LA, USA (Nov. 8, 2019). – Trint.com Sponsored Lunch at the Online Journalists Association Convention 2019, New Orleans, LA, USA (Sept. 13, 2019)
+
+- when: September 2019
+  talk: 'Flexible Representative Democracy: An Introduction with Binary Issues. – Schloss Dagstuhl Seminar 19381: Application-Oriented Computational Social Choice, Wadern, Germany ()'
+
+- when: June 2019
+  talk: Incorporating Behavioral Constraints in Online AI Systems. – Next Generation Recommenders Systems Workshop, Google, Mountain View, CA, USA ()
+
+- when: April 2019
+  talk: Data Science and AI for Social Good. – Invited Panelist, Penn State Institute for CyberScience (ICS) Symposium on AI, Machine Learning, and Big Data Analytics, State College, PA, USA ()
+
+- when: '2019'
+  talk: Building Ethically Bounded AI. – DIMACS/LAMSADE Social Responsibility of Algorithms 2019, Paris, France (Dec. 13, 2019). – University of Kentucky AI Seminar, Lexington, KY USA (July 18, 2019). – IBM Research AI / University of Notre Dame Thinklab, Yorktown Heights, NY, USA (Oct. 30, 2018). – IBM TJ Watson Open Lab Day, Yorktown Heights, NY, USA (Oct. 5, 2018)
+
+- when: '2018'
+  talk: Theory and Data for Better Decisions. – ACM New York City Meetup, New York City, NY, USA (April 18, 2018). – Rensselaer Polytechnic Institute (RPI) Computer Science Colloquium, Troy, NY, USA (April 12, 2018). – Tulane University, Computer Science Colloquium, New Orleans, LA, USA (Feb. 6, 2018). – Spotify Research, New York, NY, USA (Oct. 27, 2017). – Union College Math/CS Seminar Series, Schenectady, NY, USA (Nov. 2, 2017)
+
+- when: August 2017
+  talk: Mechanisms for Online Organ Matching. – Sydney Economics and Computation Workshop, Sydney, Australia ()
+
+- when: August 2017
+  talk: 'Doctoral Consortium Panel: Your Research Career. – IJCAI 2017 Doctoral Consortium, Melbourne, Australia ()'
+
+- when: '2017'
+  talk: 'Strategyproof Peer Selection using Randomization, Partitioning, and Apportionment. – Schloss Dagstuhl Seminar 17261: Voting: Beyond Simple Majorities and Single-Winner Elections, Wadern, Germany (June 27th,)'
+
+- when: '2016'
+  talk: 'A Novel Strategyproof Peer Selection Mechanism. – IBM TJ Watson Research Center: Knowledge and Reasoning Seminar (November 1st, 2016). – University of Sydney Algorithms Group Seminar (March 15th, 2016)'
+
+- when: '2016'
+  talk: 'Tutorial: Using PrefLib for Social Choice Research. – Invited Tutorial, Center for Mathematical Social Sciences Summer Workshop 2016, Auckland, New Zealand (Feb. 19th,)'
+
+- when: '2015'
+  talk: 'Tutorial: Computational Social Choice, with Haris Aziz. – 28th Australasian Joint Conference on Artificial Intelligence (AUAI 2015), Canberra, Australia (Dec. 2nd, 2015). – 13th Pacific Rim International Conference on Artificial Intelligence (PRICAI 2014), Gold Coast, Australia (Dec. 1st, 2014)'
+
+- when: '2016'
+  talk: 'From Theory to Practice: Crowdsourcing and Cost Allocation. – College of Charleston (Feb. 4, 2016). – Tulane University Colloquia (Sept. 16, 2015). – Forum for Artificial Intelligence, University of Texas at Austin (Oct. 9, 2015)'
+
+- when: September 2015
+  talk: Computational Social Choice as a Source of (Hard) Computational Problems. – Invited talk at the Algorithmic Decision Theory (ADT) meets Logic Programming and Non-Monotonic Reasoning (LPNMR) session of the 4th International Conference on Algorithmic Decision Theory ()
+
+- when: '2015'
+  talk: 'OWAs for Voting and Matching. – Schloss Dagstuhl Seminar 15241: Computational Social Choice: Theory and Applications, Wadern, Germany (June 11th,)'
+
+- when: '2014'
+  talk: 'Tutorial: PrefLib for Empirical Testing in Social Choice. – 1st Workshop on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE 2014), Paris, France (May 6th,)'
+
+- when: '2014'
+  talk: A Study of Proxies for Shapley Allocations of Transport Costs. – University of Kentucky (July 3rd, 2014). – Decision, Intelligent Systems and Operational Research Department (DESIR), Pierre et Marie Curie (Paris 6) University, Paris, France (May 14th, 2014). – NICTA Game Theory and Optimization Workshop, Sydney, Australia (April 9th, 2014). – NICTA Optimization Seminar, Sydney, Australia (March 28, 2014)
+
+- when: '2013'
+  talk: 'Empirical Social Choice: PrefLib and Randomized Tie-Breaking. – NICTA Optimization Seminar, Sydney, Australia (Sept. 13, 2013). – University of Kentucky (July 31, 2013). – University of Texas at Dallas (July 23, 2013)'
+
+- when: '2014'
+  talk: 'Academic Advising: Automatically Generating Convincing Explanations of Recommendations from Complex Models. – University of Louisville (July 17, 2014). – NICTA Optimization Seminar, Sydney, Australia (July 5, 2013). – University of Texas at Austin (Aug. 12, 2011). – Eastern Kentucky University 25th Annual Symposium in the Mathematics, Statistical, and Computer Sciences (April 1, 2011)'
+
+- when: January 2013
+  talk: Empirical Analysis of Voting Rules and Large Datasets. Institute of Mathematical Science (Singapore) Workshop on Social Choice and Algorithmic Game Theory
+
+- when: '2013'
+  talk: 'Influence, Bribery, and Manipulation in Voting Systems: Current Results and Ongoing Work. – NICTA Optimization Seminar, Sydney, Australia (Nov. 30, 2013). – Capital Area Theory Seminar (CATS), University of Maryland, College Park (Feb. 24, 2012). – University of Padova, Italy (June 16, 2011)'
+
+- when: '2010'
+  talk: 'Decision Making Under Uncertainty: Social Choice and Manipulation. – Comparative Decision Making Seminar, University of Kentucky (May 29, 2010). – Mid-West Theory Day, Indiana University (May 17, 2010)'
+
+- when: August 2005
+  talk: Wireless Emergency Stop for the K-10 Lunar Rover. Nicholas Mattei. Poster Presentation. NASA Ames Research Center USRP Poster Day
+
+- when: August 2004
+  talk: Real-Time Linux Testing and Results. Nicholas Mattei. NASA Glenn Research Center LERCIP Presentation Day

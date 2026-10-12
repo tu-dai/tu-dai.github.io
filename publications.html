@@ -1,0 +1,39 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+intro: Lab members are in bold. For citation counts, see Nick's Google Scholar or DBLP pages.
+---
+{%- comment -%}
+  The list comes from _data/publications.yml, which is already sorted newest first.
+  A new year heading starts whenever the year changes.
+{%- endcomment -%}
+<div class="pub-tools" hidden>
+  <div class="pub-filters" role="group" aria-label="Show">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-filter="conference" aria-pressed="false">Conference</button>
+    <button type="button" data-filter="journal" aria-pressed="false">Journal</button>
+    <button type="button" data-filter="workshop" aria-pressed="false">Workshop</button>
+    <button type="button" data-filter="book chapter edited-volume" aria-pressed="false">Books and chapters</button>
+  </div>
+  <label class="pub-search">
+    <span>Search</span>
+    <input type="search" placeholder="Title, author, or venue">
+  </label>
+</div>
+<p class="pub-empty" hidden>No publications match. Try a different search or filter.</p>
+
+{%- assign year = "" %}
+{%- for pub in site.data.publications %}
+  {%- if pub.year != year %}
+    {%- unless forloop.first %}</ol></section>{% endunless %}
+<section class="pub-year">
+  <h2 class="year-title">{{ pub.year }}</h2>
+  <ol class="pubs">
+    {%- assign year = pub.year %}
+  {%- endif %}
+    {% include publication.html %}
+  {%- if forloop.last %}</ol></section>{% endif %}
+{%- endfor %}
+
+<script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>
