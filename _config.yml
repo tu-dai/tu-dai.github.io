@@ -5,8 +5,8 @@ full_name: Tulane Data and AI Lab
 description: >-
   The Tulane Data and AI Lab studies how people and AI systems make decisions together,
   from voting and peer review to fair recommendations and community-engaged AI.
-url: https://tu-dai.github.io
-baseurl: ""
+url: https://hrishikabra.me
+baseurl: "/lab-website"
 
 # Shown in the footer
 address:
