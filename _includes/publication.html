@@ -6,7 +6,7 @@
 {%- else -%}
   {%- assign paper_link = nil -%}
 {%- endif -%}
-<li class="pub" data-type="{{ pub.type | replace: ' ', '-' }}">
+<li class="pub" data-type="{{ pub.type | replace: ' ', '-' }}" data-tags="{% for t in pub.tags %}{{ t | slugify }} {% endfor %}">
   {%- assign type_label = pub.type | capitalize %}
   <span class="pub-venue">{{ pub.venue_short | default: type_label }}</span>
   <div class="pub-body">
@@ -19,10 +19,17 @@
       <span class="pub-where">{{ pub.venue }}, {{ pub.year }}</span>
       {%- if pub.award %} <span class="pub-award">{{ pub.award }}</span>{% endif %}
     </p>
+    {%- if pub.tags %}
+    <ul class="pub-tags" aria-label="Topics">
+      {%- for t in pub.tags %}
+      <li><a href="{{ '/publications/' | relative_url }}?tag={{ t | slugify }}">{{ t }}</a></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
     <div class="pub-links">
       {%- if paper_link %}<a href="{{ paper_link }}">Paper</a>{% endif %}
-      {%- if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}
       {%- if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
+      {%- if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}
       {%- if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}
       {%- if pub.slides %}<a href="{{ pub.slides }}">Slides</a>{% endif %}
       {%- if pub.video %}<a href="{{ pub.video }}">Video</a>{% endif %}

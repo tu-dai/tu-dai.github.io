@@ -82,6 +82,7 @@ Open `_data/publications.yml` and paste a new entry near the top, under the comm
 - `type` is one of: `conference`, `journal`, `workshop`, `chapter`, `book`, `edited volume`.
 - Each link field becomes a button under the paper: `doi` or `url` (Paper), `arxiv` (just the number), `pdf`, `code`, `slides`, `video`, `website`. All optional.
 - `award` (e.g. "Best Paper") shows next to the venue.
+- `tags` are short topic keywords, written like `tags: [peer selection, mechanism design]`. Each tag links to a filtered list of papers, and any tag used on 3 or more papers shows up under "Browse by topic" on the Publications page and "Topics" on the Research page. The existing tags come from each paper's keywords in [OpenAlex](https://openalex.org); reuse the same wording when you can so papers group together.
 - Every paper gets a **BibTeX** button automatically, built from the fields above. To use an exact entry instead (e.g. copied from DBLP), add it like this:
 
 ```yaml
@@ -127,9 +128,9 @@ One or two paragraphs about the project.
 It's a plain [Jekyll](https://jekyllrb.com) site that GitHub Pages builds for free. There is no custom code to maintain:
 
 - `_layouts/` holds the page frame (header, menu, footer), plus layouts for normal pages and people.
-- `_includes/` holds small pieces reused across pages: a publication entry, its BibTeX, a person card, and the author-linking logic.
+- `_includes/` holds small pieces reused across pages: a publication entry, its BibTeX, the topic list, a person card, and the author-linking logic.
 - `index.html`, `people.html`, `research.html`, `publications.html`, `talks.html`, `news.html` are the pages.
-- `assets/js/publications.js` (filter and search on the Publications page) and `assets/js/bibtex.js` (the Copy button) are the only scripts. The site works without them.
+- `assets/js/publications.js` (type, topic, and search filters on the Publications page) and `assets/js/bibtex.js` (the Copy button) are the only scripts. The site works without them.
 
 **GitHub Pages setting:** Settings → Pages → Build and deployment → Source: "Deploy from a branch", branch `master`, folder `/ (root)`.
 

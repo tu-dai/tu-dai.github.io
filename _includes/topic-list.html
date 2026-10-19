@@ -1,0 +1,27 @@
+{%- comment -%}
+  Links to every tag used on at least `include.min` papers, most common first, with counts.
+  Tags come from the `tags:` field of each paper in _data/publications.yml.
+  Usage: {% include topic-list.html min=3 %}
+{%- endcomment -%}
+{%- assign topic_all = "" | split: "" -%}
+{%- for pub in site.data.publications -%}
+  {%- if pub.tags -%}{%- assign topic_all = topic_all | concat: pub.tags -%}{%- endif -%}
+{%- endfor -%}
+{%- assign topic_names = topic_all | uniq -%}
+{%- assign topic_rows = "" | split: "" -%}
+{%- for topic_name in topic_names -%}
+  {%- assign topic_n = 0 -%}
+  {%- for t in topic_all -%}{%- if t == topic_name -%}{%- assign topic_n = topic_n | plus: 1 -%}{%- endif -%}{%- endfor -%}
+  {%- if topic_n >= include.min -%}
+    {%- assign topic_key = topic_n | plus: 1000 | append: "|" | append: topic_name -%}
+    {%- assign topic_rows = topic_rows | push: topic_key -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign topic_rows = topic_rows | sort | reverse -%}
+<ul class="topics">
+  {%- for row in topic_rows -%}
+    {%- assign parts = row | split: "|" -%}
+    {%- assign topic_count = parts[0] | minus: 1000 %}
+  <li><a href="{{ '/publications/' | relative_url }}?tag={{ parts[1] | slugify }}" data-tag="{{ parts[1] | slugify }}">{{ parts[1] }} <span class="topic-count">{{ topic_count }}</span></a></li>
+  {%- endfor %}
+</ul>

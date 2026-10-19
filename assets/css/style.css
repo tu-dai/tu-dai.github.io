@@ -29,6 +29,7 @@ body {
 }
 
 img { max-width: 100%; display: block; }
+[hidden] { display: none !important; }
 strong, b { font-weight: 600; }
 
 a { color: var(--green); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
@@ -117,6 +118,23 @@ p { margin: 0 0 0.8em; }
 .pub-award { color: var(--green); font-weight: 600; font-style: normal; margin-left: 0.4rem; }
 .pub-authors a.member { color: var(--ink); font-weight: 600; text-decoration: none; }
 .pub-authors a.member:hover { color: var(--blue); text-decoration: underline; }
+.pub-tags { list-style: none; margin: 0.45rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.pub-tags a, .topics a {
+  display: inline-block; text-decoration: none; color: var(--green); background: var(--tint);
+  border: 1px solid var(--rule); border-radius: 999px; padding: 0.05rem 0.6rem; font-size: 0.85rem;
+}
+.pub-tags a:hover, .topics a:hover { border-color: var(--green); color: var(--green-dark); }
+.topics { list-style: none; margin: 0.75rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.topics a { font-size: 0.93rem; padding: 0.2rem 0.75rem; }
+.topics a[aria-current] { background: var(--green); border-color: var(--green); color: #fff; }
+.topic-count { color: var(--muted); margin-left: 0.2rem; }
+.topics a[aria-current] .topic-count { color: rgba(255, 255, 255, 0.8); }
+.pub-topics { margin-bottom: 1.5rem; }
+.topics-title { font-size: 1.25rem; }
+.pub-tag-status { margin: 0.5rem 0 0; font-size: 1.05rem; }
+.pub-tag-status[hidden] { display: none; }
+.research-topics { margin-top: 3rem; }
+.research-topics .section-title { padding-bottom: 0.4rem; border-bottom: 2px solid var(--green); }
 .pub-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 1rem; margin-top: 0.4rem; font-size: 0.93rem; font-weight: 600; }
 .pub-bib summary { cursor: pointer; color: var(--green); list-style: none; }
 .pub-bib summary::-webkit-details-marker { display: none; }
