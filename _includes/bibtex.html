@@ -1,0 +1,42 @@
+{%- comment -%}
+  BibTeX for one publication. Set `pub` before including this file.
+  If the entry has its own `bibtex:` field, that is used as-is.
+  Otherwise an entry is built from title, authors, venue, year, type, doi, url, and arxiv.
+{%- endcomment -%}
+{%- if pub.bibtex -%}
+{{ pub.bibtex | strip }}
+{%- else -%}
+  {%- assign bib_names = pub.authors | remove: " (eds.)" | replace: ", and ", ", " | replace: " and ", ", " | split: ", " -%}
+  {%- assign bib_last = bib_names.first | split: " " | last | slugify: "latin" | remove: "-" -%}
+  {%- assign bib_words = pub.title | split: " " -%}
+  {%- assign bib_word = bib_words.first | slugify: "latin" | remove: "-" -%}
+  {%- if bib_word == "the" or bib_word == "a" or bib_word == "an" or bib_word == "on" -%}
+    {%- assign bib_word = bib_words[1] | slugify: "latin" | remove: "-" -%}
+  {%- endif -%}
+  {%- assign bib_venue = pub.venue | remove: " (to appear)" | replace: "&", "\&" -%}
+  {%- case pub.type -%}
+    {%- when "journal" -%}{%- assign bib_type = "article" -%}{%- assign bib_where = "journal" -%}
+    {%- when "chapter" -%}{%- assign bib_type = "incollection" -%}{%- assign bib_where = "booktitle" -%}
+    {%- when "book" -%}{%- assign bib_type = "book" -%}{%- assign bib_where = "publisher" -%}
+    {%- when "edited volume" -%}{%- assign bib_type = "proceedings" -%}{%- assign bib_where = "publisher" -%}
+    {%- else -%}{%- assign bib_type = "inproceedings" -%}{%- assign bib_where = "booktitle" -%}
+  {%- endcase -%}
+@{{ bib_type }}{ {{- bib_last }}{{ pub.year }}{{ bib_word }},
+  title = { {{- pub.title | replace: "&", "\&" -}} },
+  {% if pub.type == "edited volume" %}editor{% else %}author{% endif %} = { {{- bib_names | join: " and " -}} },
+  {{ bib_where }} = { {{- bib_venue -}} },
+  year = { {{- pub.year -}} },
+  {%- if pub.venue contains "(to appear)" %}
+  note = {To appear},
+  {%- endif %}
+  {%- if pub.doi %}
+  doi = { {{- pub.doi -}} },
+  {%- elsif pub.url %}
+  url = { {{- pub.url -}} },
+  {%- endif %}
+  {%- if pub.arxiv %}
+  eprint = { {{- pub.arxiv -}} },
+  archivePrefix = {arXiv},
+  {%- endif %}
+}
+{%- endif -%}
