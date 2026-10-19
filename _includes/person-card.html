@@ -24,6 +24,8 @@
       {%- if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
       {%- if person.website %}<a href="{{ person.website }}">Website</a>{% endif %}
       {%- if person.scholar %}<a href="{{ person.scholar }}">Scholar</a>{% endif %}
+        {%- if person.dblp %}<a href="{{ person.dblp }}">DBLP</a>{% endif %}
+        {%- if person.orcid %}<a href="https://orcid.org/{{ person.orcid }}">ORCID</a>{% endif %}
       {%- if person.github %}<a href="{{ person.github }}">GitHub</a>{% endif %}
     </p>
   </div>

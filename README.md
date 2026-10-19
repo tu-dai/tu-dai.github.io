@@ -74,10 +74,23 @@ Open `_data/publications.yml` and paste a new entry near the top, under the comm
   venue_short: AAAI
   year: 2027
   type: conference
+  doi: 10.1609/aaai.v41i1.12345
+  arxiv: 2507.02152
+  code: https://github.com/tu-dai/some-repo
 ```
 
 - `type` is one of: `conference`, `journal`, `workshop`, `chapter`, `book`, `edited volume`.
-- Optional: `url` (title links here), `pdf`, `code`, `award` (e.g. "Best Paper").
+- Each link field becomes a button under the paper: `doi` or `url` (Paper), `arxiv` (just the number), `pdf`, `code`, `slides`, `video`, `website`. All optional.
+- `award` (e.g. "Best Paper") shows next to the venue.
+- Every paper gets a **BibTeX** button automatically, built from the fields above. To use an exact entry instead (e.g. copied from DBLP), add it like this:
+
+```yaml
+  bibtex: |
+    @inproceedings{DBLP:conf/aaai/SariolaBCM26,
+      ...
+    }
+```
+
 - Keep the file sorted by year, newest first. A year heading appears whenever the year changes.
 - If a title contains a colon, wrap it in single quotes: `title: 'DeepVoting: Learning Voting Rules'`.
 
@@ -114,9 +127,9 @@ One or two paragraphs about the project.
 It's a plain [Jekyll](https://jekyllrb.com) site that GitHub Pages builds for free. There is no custom code to maintain:
 
 - `_layouts/` holds the page frame (header, menu, footer), plus layouts for normal pages and people.
-- `_includes/` holds three small pieces reused across pages: a publication entry, a person card, and the author-bolding logic.
+- `_includes/` holds small pieces reused across pages: a publication entry, its BibTeX, a person card, and the author-linking logic.
 - `index.html`, `people.html`, `research.html`, `publications.html`, `talks.html`, `news.html` are the pages.
-- `assets/js/publications.js` is about 40 lines for the filter buttons and search on the Publications page. The page works without it.
+- `assets/js/publications.js` (filter and search on the Publications page) and `assets/js/bibtex.js` (the Copy button) are the only scripts. The site works without them.
 
 **GitHub Pages setting:** Settings → Pages → Build and deployment → Source: "Deploy from a branch", branch `master`, folder `/ (root)`.
 

@@ -108,14 +108,33 @@ p { margin: 0 0 0.8em; }
 .pub { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; padding: 1rem 0; border-top: 1px solid var(--rule); }
 .pub-venue { color: var(--green); font-weight: 600; font-size: 0.95rem; padding-top: 0.1rem; overflow-wrap: anywhere; }
 .pub-title { font-weight: 600; margin: 0 0 0.2rem; line-height: 1.4; }
-.pub-title a { color: var(--ink); }
+.pub-title a { color: var(--ink); text-decoration-color: var(--rule); }
 .pub-title a:hover { color: var(--blue); }
 .pub-authors { margin: 0 0 0.2rem; font-size: 0.97rem; }
 .pub-authors strong { font-weight: 600; color: var(--ink); }
 .pub-meta { margin: 0; color: var(--muted); font-size: 0.93rem; }
 .pub-where { font-style: italic; }
 .pub-award { color: var(--green); font-weight: 600; font-style: normal; margin-left: 0.4rem; }
-.pub-link { margin-left: 0.6rem; font-weight: 600; }
+.pub-authors a.member { color: var(--ink); font-weight: 600; text-decoration: none; }
+.pub-authors a.member:hover { color: var(--blue); text-decoration: underline; }
+.pub-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 1rem; margin-top: 0.4rem; font-size: 0.93rem; font-weight: 600; }
+.pub-bib summary { cursor: pointer; color: var(--green); list-style: none; }
+.pub-bib summary::-webkit-details-marker { display: none; }
+.pub-bib summary::after { content: " +"; }
+.pub-bib[open] summary::after { content: " \2212"; }
+.pub-bib summary:hover { color: var(--blue); text-decoration: underline; }
+.pub-bib[open] { flex-basis: 100%; }
+.bib-box { position: relative; margin-top: 0.5rem; }
+.bib-box pre {
+  margin: 0; padding: 0.85rem 1rem; background: var(--tint); border: 1px solid var(--rule); border-radius: 6px;
+  font: 400 0.82rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--ink);
+  white-space: pre-wrap; overflow-wrap: anywhere;
+}
+.bib-copy {
+  position: absolute; top: 0.5rem; right: 0.5rem; font: inherit; font-size: 0.85rem; cursor: pointer;
+  background: var(--paper); color: var(--green); border: 1px solid var(--rule); border-radius: 4px; padding: 0.15rem 0.6rem;
+}
+.bib-copy:hover { border-color: var(--green); }
 .pubs-compact .pub-meta { font-size: 0.9rem; }
 
 .pub-tools {

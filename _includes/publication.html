@@ -1,18 +1,40 @@
 {%- comment -%} One publication. Set `pub` before including this file. {%- endcomment -%}
+{%- if pub.url -%}
+  {%- assign paper_link = pub.url -%}
+{%- elsif pub.doi -%}
+  {%- assign paper_link = "https://doi.org/" | append: pub.doi -%}
+{%- else -%}
+  {%- assign paper_link = nil -%}
+{%- endif -%}
 <li class="pub" data-type="{{ pub.type | replace: ' ', '-' }}">
   {%- assign type_label = pub.type | capitalize %}
   <span class="pub-venue">{{ pub.venue_short | default: type_label }}</span>
   <div class="pub-body">
     <p class="pub-title">
-      {%- if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif -%}
+      {%- if paper_link %}<a href="{{ paper_link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif -%}
     </p>
     {%- assign authors = pub.authors %}
     <p class="pub-authors">{% include authors.html %}</p>
     <p class="pub-meta">
       <span class="pub-where">{{ pub.venue }}, {{ pub.year }}</span>
       {%- if pub.award %} <span class="pub-award">{{ pub.award }}</span>{% endif %}
-      {%- if pub.pdf %} <a class="pub-link" href="{{ pub.pdf }}">PDF</a>{% endif %}
-      {%- if pub.code %} <a class="pub-link" href="{{ pub.code }}">Code</a>{% endif %}
     </p>
+    <div class="pub-links">
+      {%- if paper_link %}<a href="{{ paper_link }}">Paper</a>{% endif %}
+      {%- if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}
+      {%- if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
+      {%- if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}
+      {%- if pub.slides %}<a href="{{ pub.slides }}">Slides</a>{% endif %}
+      {%- if pub.video %}<a href="{{ pub.video }}">Video</a>{% endif %}
+      {%- if pub.website %}<a href="{{ pub.website }}">Website</a>{% endif %}
+      {%- capture bib %}{% include bibtex.html %}{% endcapture %}
+      <details class="pub-bib">
+        <summary>BibTeX</summary>
+        <div class="bib-box">
+          <pre>{{ bib | strip | escape }}</pre>
+          <button type="button" class="bib-copy" hidden>Copy</button>
+        </div>
+      </details>
+    </div>
   </div>
 </li>

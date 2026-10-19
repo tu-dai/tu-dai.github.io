@@ -5,6 +5,7 @@ position: Associate Professor of Computer Science
 photo: nick-mattei.jpg
 email: nsmattei@tulane.edu
 website: http://www.nickmattei.net
+dblp: https://dblp.org/pid/54/7115.html
 pub_names: [Nicholas Mattei, Nick Mattei, N Mattei, N. Mattei]
 order: 1
 show_publications: false  # the Publications page already lists all of Nick's papers
