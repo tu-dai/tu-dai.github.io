@@ -3,32 +3,33 @@ layout: page
 title: Publications
 permalink: /publications/
 intro: >-
-  Lab members are in bold and link to their pages. Click a topic to see related papers, or BibTeX to copy a citation.
+  Lab members are in bold and link to their pages. Filter by type or topic, or search as you type. Click BibTeX under any paper to copy a citation.
   The full list is also on <a href="https://dblp.org/pid/54/7115.html">DBLP</a>.
 ---
 {%- comment -%}
   The list comes from _data/publications.yml, which is already sorted newest first.
   A new year heading starts whenever the year changes.
 {%- endcomment -%}
-<section class="pub-topics" aria-labelledby="topics-heading">
-  <h2 id="topics-heading" class="topics-title">Browse by topic</h2>
-  {% include topic-list.html min=3 show=10 %}
-</section>
-
 <div class="pub-tools" hidden>
-  <div class="pub-filters" role="group" aria-label="Show">
-    <button type="button" data-filter="all" aria-pressed="true">All</button>
-    <button type="button" data-filter="conference" aria-pressed="false">Conference</button>
-    <button type="button" data-filter="journal" aria-pressed="false">Journal</button>
-    <button type="button" data-filter="workshop" aria-pressed="false">Workshop</button>
-    <button type="button" data-filter="book chapter edited-volume" aria-pressed="false">Books and chapters</button>
+  <div class="pub-tools-row">
+    <div class="pub-filters" role="group" aria-label="Type">
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="conference" aria-pressed="false">Conference</button>
+      <button type="button" data-filter="journal" aria-pressed="false">Journal</button>
+      <button type="button" data-filter="workshop" aria-pressed="false">Workshop</button>
+      <button type="button" data-filter="book chapter edited-volume" aria-pressed="false">Books and chapters</button>
+    </div>
+    <label class="pub-search">
+      <span>Search</span>
+      <input type="search" placeholder="Title, author, venue, or topic" autocomplete="off">
+    </label>
   </div>
-  <label class="pub-search">
-    <span>Search</span>
-    <input type="search" placeholder="Title, author, or venue">
-  </label>
+  <div class="pub-topics">
+    <p class="topics-title" id="topics-heading">Topics <span class="topics-hint">Pick one or more. Click again to remove.</span></p>
+    {% include topic-list.html min=3 show=10 %}
+  </div>
 </div>
-<p class="pub-tag-status" hidden>Showing papers tagged <strong></strong>. <a href="{{ '/publications/' | relative_url }}">Show all papers</a></p>
+<p class="pub-results" aria-live="polite" hidden><span class="pub-count"></span> <button type="button" class="pub-clear">Clear filters</button></p>
 <p class="pub-empty" hidden>No publications match. Try a different search or filter.</p>
 
 {%- assign year = "" %}

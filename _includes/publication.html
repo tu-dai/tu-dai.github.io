@@ -22,7 +22,7 @@
     {%- if pub.tags %}
     <ul class="pub-tags" aria-label="Topics">
       {%- for t in pub.tags %}
-      <li><a href="{{ '/publications/' | relative_url }}?tag={{ t | slugify }}">{{ t }}</a></li>
+      <li><a href="{{ '/publications/' | relative_url }}?tag={{ t | slugify }}" data-tag="{{ t | slugify }}"><span class="topic-label">{{ t }}</span></a></li>
       {%- endfor %}
     </ul>
     {%- endif %}

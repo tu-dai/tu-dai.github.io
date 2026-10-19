@@ -26,7 +26,7 @@
   {%- for row in topic_rows limit: topic_show -%}
     {%- assign parts = row | split: "|" -%}
     {%- assign topic_count = parts[0] | minus: 1000 %}
-  <li><a href="{{ '/publications/' | relative_url }}?tag={{ parts[1] | slugify }}" data-tag="{{ parts[1] | slugify }}">{{ parts[1] }} <span class="topic-count">{{ topic_count }}</span></a></li>
+  <li><a href="{{ '/publications/' | relative_url }}?tag={{ parts[1] | slugify }}" data-tag="{{ parts[1] | slugify }}"><span class="topic-label">{{ parts[1] }}</span> <span class="topic-count">{{ topic_count }}</span></a></li>
   {%- endfor %}
 </ul>
 {%- if topic_more > 0 %}
@@ -36,7 +36,7 @@
     {%- for row in topic_rows offset: topic_show -%}
       {%- assign parts = row | split: "|" -%}
       {%- assign topic_count = parts[0] | minus: 1000 %}
-    <li><a href="{{ '/publications/' | relative_url }}?tag={{ parts[1] | slugify }}" data-tag="{{ parts[1] | slugify }}">{{ parts[1] }} <span class="topic-count">{{ topic_count }}</span></a></li>
+    <li><a href="{{ '/publications/' | relative_url }}?tag={{ parts[1] | slugify }}" data-tag="{{ parts[1] | slugify }}"><span class="topic-label">{{ parts[1] }}</span> <span class="topic-count">{{ topic_count }}</span></a></li>
     {%- endfor %}
   </ul>
 </details>

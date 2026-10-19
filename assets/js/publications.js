@@ -1,56 +1,95 @@
-// Filters on the Publications page: type buttons, search box, and ?tag= links.
+// Filters on the Publications page: type buttons, topic chips (pick several), and a live search box.
+// The chosen topics are kept in the address bar (?tag=a,b) so a filtered list can be shared.
 // Without JavaScript the full list still shows; this only hides entries.
 (function () {
   var tools = document.querySelector(".pub-tools");
   if (!tools) return;
   tools.hidden = false;
 
-  var buttons = tools.querySelectorAll("[data-filter]");
+  var typeButtons = tools.querySelectorAll("[data-filter]");
   var search = tools.querySelector("input");
   var pubs = document.querySelectorAll(".pub-year .pub");
   var years = document.querySelectorAll(".pub-year");
+  var results = document.querySelector(".pub-results");
+  var count = results.querySelector(".pub-count");
   var empty = document.querySelector(".pub-empty");
-  var status = document.querySelector(".pub-tag-status");
-  var types = "all";
-  var tag = new URLSearchParams(location.search).get("tag") || "";
 
-  if (tag) {
-    var link = document.querySelector('.topics a[data-tag="' + tag + '"]') ||
-      document.querySelector('.pub-tags a[href$="?tag=' + tag + '"]');
-    status.querySelector("strong").textContent = link ? link.firstChild.textContent.trim() : tag.replace(/-/g, " ");
-    status.hidden = false;
-    document.querySelectorAll('.topics a[data-tag="' + tag + '"]').forEach(function (a) {
-      a.setAttribute("aria-current", "true");
-      var more = a.closest(".topics-more");
-      if (more) more.open = true;  // the chosen topic is in the collapsed part of the list
+  var type = "all";
+  var params = new URLSearchParams(location.search);
+  var topics = (params.get("tag") || "").split(",").filter(Boolean);
+
+  // Topic chips are links (so they work from other pages); here they act as on/off buttons.
+  var chips = document.querySelectorAll("a[data-tag]");
+  chips.forEach(function (chip) { chip.setAttribute("role", "button"); });
+
+  function syncChips() {
+    chips.forEach(function (chip) {
+      var on = topics.indexOf(chip.dataset.tag) !== -1;
+      chip.classList.toggle("is-on", on);
+      chip.setAttribute("aria-pressed", on ? "true" : "false");
+      var more = chip.closest(".topics-more");
+      if (on && more) more.open = true;
     });
+  }
+
+  function saveTopics() {
+    var p = new URLSearchParams(location.search);
+    if (topics.length) p.set("tag", topics.join(",")); else p.delete("tag");
+    var q = p.toString().replace(/%2C/g, ",");
+    history.replaceState(null, "", location.pathname + (q ? "?" + q : "") + location.hash);
   }
 
   function update() {
     var words = search.value.toLowerCase().split(/\s+/).filter(Boolean);
+    var shown = 0;
     pubs.forEach(function (pub) {
-      var typeOk = types === "all" || types.split(" ").indexOf(pub.dataset.type) !== -1;
-      var tagOk = !tag || pub.dataset.tags.split(" ").indexOf(tag) !== -1;
+      var typeOk = type === "all" || type.split(" ").indexOf(pub.dataset.type) !== -1;
+      var tags = pub.dataset.tags.split(" ");
+      var topicOk = !topics.length || topics.some(function (t) { return tags.indexOf(t) !== -1; });
       var text = pub.textContent.toLowerCase();
       var wordsOk = words.every(function (w) { return text.indexOf(w) !== -1; });
-      pub.hidden = !(typeOk && tagOk && wordsOk);
+      pub.hidden = !(typeOk && topicOk && wordsOk);
+      if (!pub.hidden) shown++;
     });
-    var anyShown = false;
-    years.forEach(function (year) {
-      var shown = year.querySelector(".pub:not([hidden])");
-      year.hidden = !shown;
-      if (shown) anyShown = true;
-    });
-    empty.hidden = anyShown;
+    years.forEach(function (year) { year.hidden = !year.querySelector(".pub:not([hidden])"); });
+
+    var filtered = type !== "all" || topics.length > 0 || words.length > 0;
+    results.hidden = !filtered;
+    count.innerHTML = "Showing <strong>" + shown + "</strong> of " + pubs.length + " papers";
+    empty.hidden = shown > 0;
   }
 
-  buttons.forEach(function (button) {
+  document.addEventListener("click", function (e) {
+    var chip = e.target.closest("a[data-tag]");
+    if (!chip) return;
+    e.preventDefault();
+    var i = topics.indexOf(chip.dataset.tag);
+    if (i === -1) topics.push(chip.dataset.tag); else topics.splice(i, 1);
+    saveTopics();
+    syncChips();
+    update();
+  });
+
+  typeButtons.forEach(function (button) {
     button.addEventListener("click", function () {
-      types = button.dataset.filter;
-      buttons.forEach(function (b) { b.setAttribute("aria-pressed", b === button ? "true" : "false"); });
+      type = button.dataset.filter;
+      typeButtons.forEach(function (b) { b.setAttribute("aria-pressed", b === button ? "true" : "false"); });
       update();
     });
   });
+
   search.addEventListener("input", update);
+
+  results.querySelector(".pub-clear").addEventListener("click", function () {
+    type = "all";
+    typeButtons.forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.filter === "all" ? "true" : "false"); });
+    search.value = "";
+    topics = [];
+    saveTopics();
+    syncChips();
+    update();
+  });
+
+  syncChips();
   update();
 })();
