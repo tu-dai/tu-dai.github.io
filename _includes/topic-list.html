@@ -1,7 +1,8 @@
 {%- comment -%}
   Links to every tag used on at least `include.min` papers, most common first, with counts.
   Tags come from the `tags:` field of each paper in _data/publications.yml.
-  Usage: {% include topic-list.html min=3 %}
+  The first `include.show` topics are listed; the rest sit behind a "more topics" toggle.
+  Usage: {% include topic-list.html min=3 show=10 %}
 {%- endcomment -%}
 {%- assign topic_all = "" | split: "" -%}
 {%- for pub in site.data.publications -%}
@@ -18,10 +19,26 @@
   {%- endif -%}
 {%- endfor -%}
 {%- assign topic_rows = topic_rows | sort | reverse -%}
+{%- assign topic_show = include.show | default: 10 -%}
+{%- assign topic_more = topic_rows.size | minus: topic_show -%}
+<div class="topic-list">
 <ul class="topics">
-  {%- for row in topic_rows -%}
+  {%- for row in topic_rows limit: topic_show -%}
     {%- assign parts = row | split: "|" -%}
     {%- assign topic_count = parts[0] | minus: 1000 %}
   <li><a href="{{ '/publications/' | relative_url }}?tag={{ parts[1] | slugify }}" data-tag="{{ parts[1] | slugify }}">{{ parts[1] }} <span class="topic-count">{{ topic_count }}</span></a></li>
   {%- endfor %}
 </ul>
+{%- if topic_more > 0 %}
+<details class="topics-more">
+  <summary><span class="more-closed">Show {{ topic_more }} more topics</span><span class="more-open">Show fewer topics</span></summary>
+  <ul class="topics">
+    {%- for row in topic_rows offset: topic_show -%}
+      {%- assign parts = row | split: "|" -%}
+      {%- assign topic_count = parts[0] | minus: 1000 %}
+    <li><a href="{{ '/publications/' | relative_url }}?tag={{ parts[1] | slugify }}" data-tag="{{ parts[1] | slugify }}">{{ parts[1] }} <span class="topic-count">{{ topic_count }}</span></a></li>
+    {%- endfor %}
+  </ul>
+</details>
+{%- endif %}
+</div>

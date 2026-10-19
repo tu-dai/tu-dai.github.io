@@ -130,6 +130,17 @@ p { margin: 0 0 0.8em; }
 .topic-count { color: var(--muted); margin-left: 0.2rem; }
 .topics a[aria-current] .topic-count { color: rgba(255, 255, 255, 0.8); }
 .pub-topics { margin-bottom: 1.5rem; }
+.topics-more { margin-top: 0.45rem; }
+.topics-more summary {
+  display: inline-block; cursor: pointer; list-style: none; color: var(--green); font-weight: 600; font-size: 0.93rem;
+  padding: 0.2rem 0.1rem;
+}
+.topics-more summary::-webkit-details-marker { display: none; }
+.topics-more summary:hover { color: var(--blue); text-decoration: underline; }
+.topics-more .more-open, .topics-more[open] .more-closed { display: none; }
+.topics-more[open] .more-open { display: inline; }
+.topics-more[open] summary { margin-bottom: 0.1rem; }
+.topics-more .topics { margin-top: 0.3rem; }
 .topics-title { font-size: 1.25rem; }
 .pub-tag-status { margin: 0.5rem 0 0; font-size: 1.05rem; }
 .pub-tag-status[hidden] { display: none; }

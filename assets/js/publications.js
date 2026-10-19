@@ -19,7 +19,11 @@
       document.querySelector('.pub-tags a[href$="?tag=' + tag + '"]');
     status.querySelector("strong").textContent = link ? link.firstChild.textContent.trim() : tag.replace(/-/g, " ");
     status.hidden = false;
-    document.querySelectorAll('.topics a[data-tag="' + tag + '"]').forEach(function (a) { a.setAttribute("aria-current", "true"); });
+    document.querySelectorAll('.topics a[data-tag="' + tag + '"]').forEach(function (a) {
+      a.setAttribute("aria-current", "true");
+      var more = a.closest(".topics-more");
+      if (more) more.open = true;  // the chosen topic is in the collapsed part of the list
+    });
   }
 
   function update() {
